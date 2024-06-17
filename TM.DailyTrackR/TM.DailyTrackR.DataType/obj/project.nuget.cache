@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2WSL5rskUg0=",
+  "success": true,
+  "projectFilePath": "D:\\TM.DailyTrackR\\TM.DailyTrackR.DataType\\TM.DailyTrackR.DataType.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lehel\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\lehel\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\lehel\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512"
+  ],
+  "logs": []
+}

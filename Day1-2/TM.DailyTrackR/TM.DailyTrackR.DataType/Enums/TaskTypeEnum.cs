@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TM.DailyTrackR.DataType.Enums
+{
+	public enum TaskTypeEnum
+	{
+		Unknown = 0,
+		New= 1,
+		Fix = 2
+		// to be extended with more types as needed
+	}
+}

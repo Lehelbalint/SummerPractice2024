@@ -1,0 +1,80 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 5\\Day5-Testing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C2BEEE-444E-43E6-9209-CAB5D8695954}|Day4\\Day4.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 5\\day5-testing\\day4\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C2BEEE-444E-43E6-9209-CAB5D8695954}|Day4\\Day4.csproj|solutionrelative:day4\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C2BEEE-444E-43E6-9209-CAB5D8695954}|Day4\\Day4.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 5\\day5-testing\\day4\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C2BEEE-444E-43E6-9209-CAB5D8695954}|Day4\\Day4.csproj|solutionrelative:day4\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 5\\Day5-Testing\\Day4\\Register.cs",
+              "RelativeDocumentMoniker": "Day4\\Register.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 5\\Day5-Testing\\Day4\\Register.cs",
+              "RelativeToolTip": "Day4\\Register.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAQwEQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T10:31:27.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 5\\Day5-Testing\\Day4\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Day4\\UnitTest1.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 5\\Day5-Testing\\Day4\\UnitTest1.cs",
+              "RelativeToolTip": "Day4\\UnitTest1.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwB0AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T08:04:25.266Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1099,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+﻿<Window x:Class="TM.DailyTrackR.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TM.DailyTrackR.View"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="TM Daily TrackR" Height="450" Width="800">
+    <DockPanel>
+        <Calendar>
+            <Calendar.LayoutTransform>
+                <ScaleTransform ScaleX="1.3" ScaleY="2.5"/>
+            </Calendar.LayoutTransform>
+        </Calendar>
+        <TabControl>
+            <TabItem Header="Daily">
+                <StackPanel>
+                    <DockPanel>
+                        <TextBlock FontSize="15" TextAlignment="Left">Activities Date: 22.05.2024</TextBlock>
+                        <Image Source="Resources\addTask.png" Width="30" Height="30" HorizontalAlignment="Right" Margin="5"/>
+                    </DockPanel>
+                    <Grid>
+                        <DataGrid x:Name="DataGridDaily" RowHeight="30"  ItemsSource="{Binding Activities}" CanUserAddRows="False" AutoGenerateColumns="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Width="*" Header="No." Binding="{Binding Id}"/>
+                                <DataGridTextColumn Width="*" Header="Project Type" Binding="{Binding ProjectTypeDescription}"/>
+                                <DataGridTextColumn Width="*" Header="Task Type" Binding="{Binding ActivityType_Id}"/>
+                                <DataGridTextColumn Width="2*" Header="Description" Binding="{Binding ActivityDescription}"/>
+                                <DataGridTextColumn Width="*" Header="Status" Binding="{Binding Status_Id}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="OverView" >
+                <StackPanel>
+                    <DockPanel>
+                        <TextBlock FontSize="15" TextAlignment="Left">Activities Date: 22.05.2024</TextBlock>
+                    </DockPanel>
+                    <Grid>
+                        <DataGrid x:Name="DataGridOverView" ItemsSource="{Binding ActivitiesForAll}" CanUserAddRows="False" AutoGenerateColumns="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Width="*" Header="No." Binding="{Binding Id}"/>
+                                <DataGridTextColumn Width="*" Header="Project Type" Binding="{Binding ProjectTypeDescription}"/>
+                                <DataGridTextColumn Width="2*" Header="Description" Binding="{Binding ActivityDescription}"/>
+                                <DataGridTextColumn Width="*" Header="Status" Binding="{Binding Status_Id}"/>
+                                <DataGridTextColumn Width="*" Header="User" Binding="{Binding UserName}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                    <DockPanel>
+                        <TextBlock>Export activity in</TextBlock>
+                        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                            <TextBlock Text="Select Date Range:" Margin="5"/>
+                            <DatePicker x:Name="datePicker" Margin="5" CalendarOpened="DatePicker_CalendarOpened"/>
+                            <Popup x:Name="calendarPopup" PlacementTarget="{Binding ElementName=datePicker}" StaysOpen="False">
+                                <Border BorderBrush="Black" BorderThickness="1">
+                                    <Calendar x:Name="calendar" SelectionMode="MultipleRange" DisplayModeChanged="Calendar_DisplayModeChanged"/>
+                                </Border>
+                            </Popup>
+                            <Button Content="Select Interval" Click="OnSelectIntervalClick" Margin="5"/>
+                        </StackPanel>
+                        <TextBlock>period of time.</TextBlock>
+                        <Image Source="Resources\SaveToFile.png" Width="30" Height="30" HorizontalAlignment="Left"/>
+                    </DockPanel>
+                </StackPanel>
+
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

@@ -1,0 +1,483 @@
+1.Get a list with all of the books that theit authors have the nationality 'Colombia'.
+
+[
+  {
+    $match:
+      /**
+       * query: The query in MQL.
+       */
+      {
+        Nationality: "Colombia"
+      }
+  },
+  {
+    $lookup:
+      /**
+       * from: The target collection.
+       * localField: The local join field.
+       * foreignField: The target join field.
+       * as: The name for the results.
+       * pipeline: Optional pipeline to run on the foreign collection.
+       * let: Optional variables to use in the pipeline field stages.
+       */
+      {
+        from: "Books",
+        localField: "_id",
+        foreignField: "AuthorId",
+        as: "books"
+      }
+  },
+  {
+    $unwind:
+      /**
+       * path: Path to the array field.
+       * includeArrayIndex: Optional name for index.
+       * preserveNullAndEmptyArrays: Optional
+       *   toggle to unwind null and empty values.
+       */
+      {
+        path: "$books"
+      }
+  },
+  {
+    $count:
+      /**
+       * Provide the field name for the count.
+       */
+      "books by Colombians"
+  }
+]
+
+2.Get a list with all of the books that were published in the last two years.Add a new field to each on called "isNew" with the value true for those books.
+
+[
+  {
+    $match:
+      /**
+       * query: The query in MQL.
+       */
+      {
+        YearOfPublication: {
+          $gte: new Date(
+            new Date().setFullYear(
+              new Date().getFullYear() - 2
+            )
+          )
+        }
+      }
+  },
+  {
+    $addFields:
+      /**
+       * newField: The new field name.
+       * expression: The new field expression.
+       */
+      {
+        isNew: "true"
+      }
+  }
+]
+
+
+3.Get a list with all of the books that contains the genres "Humor" and "Essay".For each of these books, the fields 'FirstName' and "LastName" will be removed and a new field "Name" will be added witch will contain bot the FirstName and the LastName.
+
+[
+  {
+    $match:
+      /**
+       * query: The query in MQL.
+       */
+      {
+        Genres: {
+          $all: ["Humor", "Essay"]
+        }
+      }
+  },
+  {
+    $lookup:
+      /**
+       * from: The target collection.
+       * localField: The local join field.
+       * foreignField: The target join field.
+       * as: The name for the results.
+       * pipeline: Optional pipeline to run on the foreign collection.
+       * let: Optional variables to use in the pipeline field stages.
+       */
+      {
+        from: "Authors",
+        localField: "AuthorId",
+        foreignField: "_id",
+        as: "Author"
+      }
+  },
+  {
+    $unwind:
+      /**
+       * path: Path to the array field.
+       * includeArrayIndex: Optional name for index.
+       * preserveNullAndEmptyArrays: Optional
+       *   toggle to unwind null and empty values.
+       */
+      {
+        path: "$Author"
+      }
+  },
+  {
+    $addFields:
+      /**
+       * newField: The new field name.
+       * expression: The new field expression.
+       */
+      {
+        "Author.Name": {
+          $concat: [
+            "$Author.FirstName",
+            " ",
+            "$Author.LastName"
+          ]
+        }
+      }
+  },
+  {
+    $unset:
+      /**
+       * Provide the field name to exclude.
+       * To exclude multiple fields, pass the field names in an array.
+       */
+      ["Author.FirstName", "Author.LastName"]
+  }
+]
+
+4.a.Who wrote the first book in the year 2022? 
+
+[
+  {
+    $match:
+      /**
+       * query: The query in MQL.
+       */
+      {
+        YearOfPublication: {
+          $gte: new Date("2022-01-01T00:00:00Z"),
+          $lt: new Date("2023-01-01T00:00:00Z")
+        }
+      }
+  },
+  {
+    $sort:
+      /**
+       * Provide any number of field/order pairs.
+       */
+      {
+        YearOfPublication: 1
+      }
+  },
+  {
+    $limit:
+      /**
+       * Provide the number of documents to limit.
+       */
+      1
+  }
+]
+
+4.b.But the second last?
+
+[
+  {
+    $match:
+      /**
+       * query: The query in MQL.
+       */
+      {
+        YearOfPublication: {
+          $gte: new Date("2022-01-01T00:00:00Z"),
+          $lt: new Date("2023-01-01T00:00:00Z")
+        }
+      }
+  },
+  {
+    $sort:
+      /**
+       * Provide any number of field/order pairs.
+       */
+      {
+        YearOfPublication: -1
+      }
+  },
+  {
+    $skip:
+      /**
+       * Provide the number of documents to skip.
+       */
+      1
+  },
+  {
+    $limit:
+      /**
+       * Provide the number of documents to limit.
+       */
+      1
+  }
+]
+
+5.The nationality of the authors who have books that their publishers have an Hotmail email address, and are not located in “Mali”
+
+[
+  {
+    $lookup:
+      /**
+       * from: The target collection.
+       * localField: The local join field.
+       * foreignField: The target join field.
+       * as: The name for the results.
+       * pipeline: Optional pipeline to run on the foreign collection.
+       * let: Optional variables to use in the pipeline field stages.
+       */
+      {
+        from: "Authors",
+        localField: "AuthorId",
+        foreignField: "_id",
+        as: "Author"
+      }
+  },
+  {
+    $lookup:
+      /**
+       * from: The target collection.
+       * localField: The local join field.
+       * foreignField: The target join field.
+       * as: The name for the results.
+       * pipeline: Optional pipeline to run on the foreign collection.
+       * let: Optional variables to use in the pipeline field stages.
+       */
+      {
+        from: "Publishers",
+        localField: "PublisherId",
+        foreignField: "_id",
+        as: "Publisher"
+      }
+  },
+  {
+    $unwind:
+      /**
+       * path: Path to the array field.
+       * includeArrayIndex: Optional name for index.
+       * preserveNullAndEmptyArrays: Optional
+       *   toggle to unwind null and empty values.
+       */
+      {
+        path: "$Author"
+      }
+  },
+  {
+    $unwind:
+      /**
+       * path: Path to the array field.
+       * includeArrayIndex: Optional name for index.
+       * preserveNullAndEmptyArrays: Optional
+       *   toggle to unwind null and empty values.
+       */
+      {
+        path: "$Publisher"
+      }
+  },
+  {
+    $match:
+      /**
+       * query: The query in MQL.
+       */
+      {
+        "Publisher.Email": {
+          $regex: "hotmail"
+        }
+      }
+  },
+  {
+    $match:
+      /**
+       * query: The query in MQL.
+       */
+      {
+        "Publisher.Adress": {
+          $not: /Mali/
+        }
+      }
+  },
+  {
+    $project:
+      /**
+       * specifications: The fields to
+       *   include or exclude.
+       */
+      {
+        "Author.Nationality": 1
+      }
+  },
+  {
+    $group:
+      /**
+       * _id: The id of the group.
+       * fieldN: The first field name.
+       */
+      {
+        _id: "$Author.Nationality"
+      }
+  }
+]
+
+6.Return all authors who wrote books which publishers use an gmail address, but with the spoken languages filtered so they not contain “Italian”, “Russian”, “English”.
+
+[
+  {
+    $lookup:
+      /**
+       * from: The target collection.
+       * localField: The local join field.
+       * foreignField: The target join field.
+       * as: The name for the results.
+       * pipeline: Optional pipeline to run on the foreign collection.
+       * let: Optional variables to use in the pipeline field stages.
+       */
+      {
+        from: "Publishers",
+        localField: "PublisherId",
+        foreignField: "_id",
+        as: "Publisher"
+      }
+  },
+  {
+    $unwind:
+      /**
+       * path: Path to the array field.
+       * includeArrayIndex: Optional name for index.
+       * preserveNullAndEmptyArrays: Optional
+       *   toggle to unwind null and empty values.
+       */
+      {
+        path: "$Publisher"
+      }
+  },
+  {
+    $match:
+      /**
+       * query: The query in MQL.
+       */
+      {
+        "Publisher.Email": {
+          $regex: "gmail"
+        }
+      }
+  },
+  {
+    $lookup:
+      /**
+       * from: The target collection.
+       * localField: The local join field.
+       * foreignField: The target join field.
+       * as: The name for the results.
+       * pipeline: Optional pipeline to run on the foreign collection.
+       * let: Optional variables to use in the pipeline field stages.
+       */
+      {
+        from: "Authors",
+        localField: "AuthorId",
+        foreignField: "_id",
+        as: "Author"
+      }
+  },
+  {
+    $unwind:
+      /**
+       * path: Path to the array field.
+       * includeArrayIndex: Optional name for index.
+       * preserveNullAndEmptyArrays: Optional
+       *   toggle to unwind null and empty values.
+       */
+      {
+        path: "$Author"
+      }
+  },
+  {
+    $match:
+      /**
+       * query: The query in MQL.
+       */
+      {
+        "Author.SpokenLanguage": {
+          $nin: ["Italian", "Russian", "English"]
+        }
+      }
+  }
+]
+
+
+7.Find the books which titles contain “Metal” . Do not take in consideration the uppercase.
+
+[
+  {
+    $match:
+      /**
+       * query: The query in MQL.
+       */
+      {
+        Title: {
+          $regex: "metal",
+          $options: "i"
+        }
+      }
+  }
+]
+
+8.. Add a new Field to the authors collection called “Books” which will contain the titles of the Books he wrote. Modify this array so that all elements of the Books array will contain the old value + the word “Book” ->{“Title” + “Book”} . Eq. “Courts book” , “hack book”, “cultivate book”
+
+[
+  {
+    $lookup:
+      /**
+       * from: The target collection.
+       * localField: The local join field.
+       * foreignField: The target join field.
+       * as: The name for the results.
+       * pipeline: Optional pipeline to run on the foreign collection.
+       * let: Optional variables to use in the pipeline field stages.
+       */
+      {
+        from: "Books",
+        localField: "_id",
+        foreignField: "AuthorId",
+        as: "books"
+      }
+  },
+  {
+    $addFields:
+      /**
+       * newField: The new field name.
+       * expression: The new field expression.
+       */
+      {
+        Books: "$books.Title"
+      }
+  },
+  {
+    $project:
+      /**
+       * field: The field name
+       * expression: The expression.
+       */
+      {
+        _id: 0,
+        Books: {
+          $map: {
+            input: "$books",
+            as: "book",
+            in: {
+              $concat: ["$$book.Title", " Book"]
+            }
+          }
+        }
+      }
+  }
+]
+
+

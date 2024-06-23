@@ -13,6 +13,28 @@ namespace TM.DailyTrackR.ViewModel
 
   public sealed class MainWindowViewModel: BindableBase
   {
+		private DateTime selectedDate = DateTime.Now; // Alapértelmezett kezdeti dátum beállítása
+
+		public DateTime SelectedDate
+		{
+			get { return selectedDate; }
+			set
+			{
+				if (SetProperty(ref selectedDate, value))
+				{
+					LoadDataForUser(selectedDate);
+					LoadDataForAllUser(selectedDate);
+					UpdateActivitiesDateText(); // Frissítjük a dátum szöveget
+				}
+			}
+		}
+
+		private string activitiesDateText;
+		public string ActivitiesDateText
+		{
+			get { return activitiesDateText; }
+			set { SetProperty(ref activitiesDateText, value); }
+		}
 		private ObservableCollection<Activity> activities = new();
 		public ObservableCollection<Activity> activitiesForAll = new();
 
@@ -43,8 +65,9 @@ namespace TM.DailyTrackR.ViewModel
 
 			Activities = new ObservableCollection<Activity>();
 			ActivitiesForAll = new ObservableCollection<Activity>();
-			LoadDataForUser();
-			LoadDataForAllUser();
+			LoadDataForUser(DateTime.Now);
+			LoadDataForAllUser(DateTime.Now);
+			UpdateActivitiesDateText();
 			//LogicHelper.Instance.ExampleController.GetDailyTasks();
 		}
 		private void DeleteExecute()
@@ -64,9 +87,9 @@ namespace TM.DailyTrackR.ViewModel
 			ViewService.Instance.ShowWindow(new InsertTaskViewModel());
 		}
 
-		private void LoadDataForAllUser()
+		private void LoadDataForAllUser(DateTime date)
 		{
-			List<Activity> data = LogicHelper.Instance.ExampleController.GetDailyTasksForAll();
+			List<Activity> data = LogicHelper.Instance.ExampleController.GetDailyTasksForAll(date);
 			ActivitiesForAll.Clear();
 			foreach (var item in data)
 			{
@@ -74,14 +97,18 @@ namespace TM.DailyTrackR.ViewModel
 			}
 		}
 
-		private void LoadDataForUser()
+		private void LoadDataForUser(DateTime date)
 		{
-			List<Activity> data = LogicHelper.Instance.ExampleController.GetDailyTasks();
+			List<Activity> data = LogicHelper.Instance.ExampleController.GetDailyTasks(date);
 			Activities.Clear();
 			foreach (var item in data)
 			{
 				Activities.Add(item);
 			}
+		}
+		private void UpdateActivitiesDateText()
+		{
+			ActivitiesDateText = $"Activities Date: {SelectedDate.ToString("dd.MM.yyyy")}";
 		}
 	}
 }

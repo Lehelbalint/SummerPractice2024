@@ -102,7 +102,7 @@
 			return 0;
 		}
 
-		public List<Activity> GetDailyTasks()
+		public List<Activity> GetDailyTasks(DateTime date)
 		{
 			//string procedureName = "tm.GetAllProjectTypes";
 			string getDailyTaskProcedure = "tm.GetActivitiesByDateAndUserNameJoined";
@@ -115,8 +115,8 @@
 					{
 						command.CommandType = CommandType.StoredProcedure;
 						connection.Open();
-						command.Parameters.AddWithValue("@CreationDate", "2024-06-23");
-						command.Parameters.AddWithValue("UserName", "User A");
+						command.Parameters.AddWithValue("@CreationDate", date);
+						command.Parameters.AddWithValue("@UserName", "User A");
 						command.ExecuteNonQuery();
 
 						Console.WriteLine("Request Succefull");
@@ -154,7 +154,7 @@
 
 		}
 
-		public List<Activity> GetDailyTasksForAll()
+		public List<Activity> GetDailyTasksForAll(DateTime date)
 		{
 			string getDailyTaskForAllProcedure = "tm.GetActivitiesByDate";
 
@@ -166,7 +166,7 @@
 					{
 						command.CommandType = CommandType.StoredProcedure;
 						connection.Open();
-						command.Parameters.AddWithValue("@CreationDate", "2024-06-12");
+						command.Parameters.AddWithValue("@CreationDate", date);
 						command.ExecuteNonQuery();
 						//Console.WriteLine("Request Succefull");
 						SqlDataReader reader = command.ExecuteReader();

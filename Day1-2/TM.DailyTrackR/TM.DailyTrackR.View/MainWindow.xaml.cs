@@ -1,7 +1,10 @@
 ﻿namespace TM.DailyTrackR.View
 {
-  using System.Windows;
+	using System.IO;
+	using System.Text;
+	using System.Windows;
 	using System.Windows.Controls;
+	using System.Windows.Documents;
 	using TM.DailyTrackR.Common;
 	using TM.DailyTrackR.DataType;
 	using TM.DailyTrackR.ViewModel;
@@ -13,34 +16,30 @@
 			InitializeComponent();
 			DataContext = new MainWindowViewModel();
 		}
-		private void DatePicker_CalendarOpened(object sender, RoutedEventArgs e)
+		private void Calendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
 		{
-			calendarPopup.IsOpen = true;
-		}
-
-		private void Calendar_DisplayModeChanged(object sender, CalendarModeChangedEventArgs e)
-		{
-			if (calendar.DisplayMode == CalendarMode.Year)
+			if (calendar.SelectedDates.Count > 0)
 			{
-				calendar.DisplayMode = CalendarMode.Month;
+				var startDate = calendar.SelectedDates.Min();
+				var endDate = calendar.SelectedDates.Max();
+				textBlock.Text = $"{startDate.ToShortDateString()} - {endDate.ToShortDateString()}";
+			}
+			else
+			{
+				textBlock.Text = "No selected range.";
 			}
 		}
-
-		private void OnSelectIntervalClick(object sender, RoutedEventArgs e)
+		private void ToggleButton_Click(object sender, RoutedEventArgs e)
 		{
-			var selectedDates = calendar.SelectedDates;
-			if (selectedDates.Count == 0)
+			if (calendar.Visibility == Visibility.Visible)
 			{
-				MessageBox.Show("Please selec t a date range.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-				return;
+				calendar.Visibility = Visibility.Collapsed;
 			}
-
-			DateTime startDate = selectedDates.Min();
-			DateTime endDate = selectedDates.Max();
-
-			MessageBox.Show($"Selected interval:\nStart Date: {startDate.ToShortDateString()}\nEnd Date: {endDate.ToShortDateString()}", "Date Interval", MessageBoxButton.OK, MessageBoxImage.Information);
+			else
+			{
+				calendar.Visibility = Visibility.Visible;
+			}
 		}
-
 		private void DataGridDaily_CurrentCellChanged(object sender, EventArgs e )
 		{
 			var dataGrid = sender as DataGrid;

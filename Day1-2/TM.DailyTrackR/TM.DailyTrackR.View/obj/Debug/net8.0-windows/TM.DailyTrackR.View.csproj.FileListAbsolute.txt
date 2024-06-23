@@ -54,3 +54,5 @@ D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.Da
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR.View\obj\Debug\net8.0-windows\ref\TM.DailyTrackR.View.dll
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR.View\bin\Debug\net8.0-windows\TM.DailyTrackR.ViewModel.dll
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR.View\bin\Debug\net8.0-windows\TM.DailyTrackR.ViewModel.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR.View\obj\Debug\net8.0-windows\InsertTask.g.cs
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR.View\obj\Debug\net8.0-windows\InsertTask.baml

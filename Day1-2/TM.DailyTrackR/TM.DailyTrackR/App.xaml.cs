@@ -17,6 +17,7 @@
             //window.DataContext = new MainWindowViewModel();
             //window.ShowDialog();
             ViewService.Instance.RegisterView(typeof(MainWindowViewModel), typeof(MainWindow));
+            ViewService.Instance.RegisterView(typeof(InsertTaskViewModel), typeof(InsertTask));
             ViewService.Instance.ShowDialog(new MainWindowViewModel());
         }
     }

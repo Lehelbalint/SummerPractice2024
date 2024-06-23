@@ -18,10 +18,17 @@
                 <StackPanel>
                     <DockPanel>
                         <TextBlock FontSize="15" TextAlignment="Left">Activities Date: 22.05.2024</TextBlock>
-                        <Image Source="Resources\addTask.png" Width="30" Height="30" HorizontalAlignment="Right" Margin="5"/>
+                        <Button Name="OpenWindowButton"  Command="{Binding NewWindowCommand}" Height="29" Width="29">
+                            <Image Source="Resources\addTask.png" Width="30" Height="30"  HorizontalAlignment="Right"/>
+                        </Button>
                     </DockPanel>
                     <Grid>
-                        <DataGrid x:Name="DataGridDaily" RowHeight="30"  ItemsSource="{Binding Activities}" CanUserAddRows="False" AutoGenerateColumns="False">
+                        <DataGrid x:Name="DataGridDaily" RowHeight="30"  ItemsSource="{Binding Activities}" CanUserAddRows="False" AutoGenerateColumns="False" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectionMode="Single" SelectedItem="{Binding SelectedActivity}" CurrentCellChanged="DataGridDaily_CurrentCellChanged">
+                            <DataGrid.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem Header="Delete DEL" Command="{Binding DeleteCommand}" />
+                                </ContextMenu>
+                            </DataGrid.ContextMenu>
                             <DataGrid.Columns>
                                 <DataGridTextColumn Width="*" Header="No." Binding="{Binding Id}"/>
                                 <DataGridTextColumn Width="*" Header="Project Type" Binding="{Binding ProjectTypeDescription}"/>
@@ -40,6 +47,7 @@
                     </DockPanel>
                     <Grid>
                         <DataGrid x:Name="DataGridOverView" ItemsSource="{Binding ActivitiesForAll}" CanUserAddRows="False" AutoGenerateColumns="False">
+                          
                             <DataGrid.Columns>
                                 <DataGridTextColumn Width="*" Header="No." Binding="{Binding Id}"/>
                                 <DataGridTextColumn Width="*" Header="Project Type" Binding="{Binding ProjectTypeDescription}"/>

@@ -8,7 +8,6 @@ namespace TM.DailyTrackR.DataType.Enums
 {
 	public enum TaskTypeEnum
 	{
-		Unknown = 0,
 		New= 1,
 		Fix = 2
 		// to be extended with more types as needed

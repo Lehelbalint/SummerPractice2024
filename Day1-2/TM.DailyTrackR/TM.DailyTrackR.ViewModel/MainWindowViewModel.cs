@@ -57,9 +57,11 @@ namespace TM.DailyTrackR.ViewModel
 		}
 		public DelegateCommand NewWindowCommand { get; }
 		public DelegateCommand DeleteCommand { get; private set; }
+		public DelegateCommand DeleteFromKeyBoardCommand { get; private set; }
 		public MainWindowViewModel()
 		{
 			DeleteCommand = new DelegateCommand(DeleteExecute);
+			DeleteFromKeyBoardCommand = new DelegateCommand(DeleteExecute);
 
 			NewWindowCommand = new DelegateCommand(NewWindowExecute);
 

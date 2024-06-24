@@ -15,8 +15,49 @@
 		{
 			InitializeComponent();
 			DataContext = new MainWindowViewModel();
+			
 		}
-		private void Calendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
+
+		private void ExportToFile(object sender, RoutedEventArgs e)
+		{
+			if (textBlock.Text != "")
+
+			{
+				var startDate = calendar.SelectedDates.Min();
+				var endDate = calendar.SelectedDates.Max();
+				var activitiesRange = LogicHelper.Instance.ExampleController.GetActivitiesByDate(startDate, endDate);
+				var filename = $"TeamWeekActivity_{startDate.ToString("dd.MM.yyyy")}_{endDate.ToString("dd.MM.yyyy")}.txt";
+				string filePath = $"D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\{filename}"; // Add meg a fájl elérési útját
+				ExportActivitiesToTxt(activitiesRange, filePath, startDate, endDate);
+				MessageBox.Show("Data Exported");
+			}
+			else {
+				MessageBox.Show("Select the period");
+			}
+		}
+		public void ExportActivitiesToTxt(List<Activity> activities, string filePath, DateTime startDate,DateTime endDate)
+		{
+			var groupedActivities = activities
+				.GroupBy(a => a.ProjectTypeDescription)
+				.OrderBy(g => g.Key);
+
+			using (StreamWriter writer = new StreamWriter(filePath))
+			{
+				writer.WriteLine($"Team Activity in the period {startDate.ToString("dd.MM.yyyy")} – {endDate.ToString("dd.MM.yyyy")}");
+				writer.WriteLine();
+
+				foreach (var group in groupedActivities)
+				{
+					writer.WriteLine($"{group.Key}:");
+					foreach (var activity in group)
+					{
+						writer.WriteLine($"-{activity.ActivityDescription} – {activity.Status_Id}");
+					}
+					writer.WriteLine();
+				}
+			}
+		}
+			private void Calendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
 		{
 			if (calendar.SelectedDates.Count > 0)
 			{

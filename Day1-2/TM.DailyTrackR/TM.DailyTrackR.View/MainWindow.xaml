@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="TM Daily TrackR" Height="450" Width="800">
+    <Window.InputBindings>
+        <KeyBinding Command="{Binding DeleteFromKeyBoardCommand}" Key="Delete" Modifiers="Ctrl"/>
+        <KeyBinding Command="{Binding NewWindowCommand}" Key="n" Modifiers="Control"/>
+        <KeyBinding Command="{Binding NewWindowCommand}" Key="N" Modifiers="Control"/>
+    </Window.InputBindings>
+
     <DockPanel>
         <Calendar SelectedDate="{Binding SelectedDate, Mode=TwoWay}" DisplayDate="{Binding SelectedDate, Mode=TwoWay}">
             <Calendar.LayoutTransform>
@@ -26,7 +32,8 @@
                         <DataGrid x:Name="DataGridDaily" RowHeight="30"  ItemsSource="{Binding Activities}" CanUserAddRows="False" AutoGenerateColumns="False" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectionMode="Single" SelectedItem="{Binding SelectedActivity}" CurrentCellChanged="DataGridDaily_CurrentCellChanged">
                             <DataGrid.ContextMenu>
                                 <ContextMenu>
-                                    <MenuItem Header="Delete DEL" Command="{Binding DeleteCommand}" />
+                                    <MenuItem Header="Create CTRL + N" Command="{Binding NewWindowCommand }" />
+                                    <MenuItem Header="Delete CTRL + DEL" Command="{Binding DeleteCommand}" />
                                 </ContextMenu>
                             </DataGrid.ContextMenu>
                             <DataGrid.Columns>
@@ -67,7 +74,7 @@
                         </StackPanel>
                         <Button Margin="0,10,0,10" Name="toggleButton" Content="📅" Click="ToggleButton_Click" Height="20" VerticalAlignment="Top" />
                         <TextBlock Margin="10">  period of time.</TextBlock>
-                        <Button Width="30" Height="30" VerticalAlignment="Top"  HorizontalAlignment="Left" Margin="0,10,0,0">
+                        <Button Width="30" Height="30" VerticalAlignment="Top" Click="ExportToFile" HorizontalAlignment="Left" Margin="0,10,0,0">
                             <Image  Source="Resources\SaveToFile.png" Width="30" Height="30" />
                         </Button>
                     </DockPanel>

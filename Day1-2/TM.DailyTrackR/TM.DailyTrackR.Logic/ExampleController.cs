@@ -29,9 +29,9 @@
 						command.Parameters.AddWithValue("@project_type_id", projectType);
 						command.Parameters.AddWithValue("@activity_type_id", (int)activity.ActivityType_Id);
 						command.Parameters.AddWithValue("@id",activity.Id);
-						MessageBox.Show("Updated");
+						//MessageBox.Show("Updated");
 						var res = command.ExecuteNonQuery();
-						MessageBox.Show(res.ToString());
+						//MessageBox.Show(res.ToString());
 					
 					}
 				}
@@ -152,6 +152,44 @@
 				}
 			};
 
+		}
+		public List<Activity> GetActivitiesByDate(DateTime startdate, DateTime endDate)
+		{
+			string getActivitiesByDateRange = "tm.GetActivitiesForUserBySpecificDateByRange";
+			using (SqlConnection connection = new SqlConnection(connectionString))
+			{
+				try
+				{
+					using (SqlCommand command = new SqlCommand(getActivitiesByDateRange, connection))
+					{
+						command.CommandType = CommandType.StoredProcedure;
+						connection.Open();
+						command.Parameters.AddWithValue("@SpecificDateRange1", startdate);
+						command.Parameters.AddWithValue("@SpecificDateRange2", endDate);
+						command.ExecuteNonQuery();
+						SqlDataReader reader = command.ExecuteReader();
+						List<Activity> activitiesByDateRange = new();
+						while (reader.Read())
+						{
+							Activity activity = new Activity
+							{
+								Id = (int)reader["id"],
+								ActivityDescription = (string)reader["activity_description"],
+								ProjectTypeDescription = (string)reader["project_type_description"],
+								ActivityType_Id = (TaskTypeEnum)(int)reader["activity_type_id"],
+								Status_Id = (StatusEnum)(int)reader["status_id"]
+							};
+							activitiesByDateRange.Add(activity);
+						}
+						return activitiesByDateRange;
+					};
+				}
+				catch (Exception ex)
+				{
+					Console.WriteLine("An error occurred: " + ex.Message);
+					return new List<Activity>();
+				}
+			};
 		}
 
 		public List<Activity> GetDailyTasksForAll(DateTime date)

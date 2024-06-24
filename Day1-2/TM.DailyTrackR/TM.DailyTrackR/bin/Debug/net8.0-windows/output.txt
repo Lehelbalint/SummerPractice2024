@@ -1,0 +1,34 @@
+Team Activity in the period 20.05.2024 – 25.05.2024
+Administrative:
+-Administrative Activity 2 – Done
+-Administrative Activity 3 – InProgress
+-Administrative Activity 4 – Done
+-Administrative Activity 5 – InProgress
+-'ewwwrerw' – InProgress
+-'abcdefg' – InProgress
+-abc – InProgress
+Development:
+-Development Activity 2 – Done
+-Development Activity 3 – InProgress
+-Development Activity 4 – Done
+-Development Activity 5 – InProgress
+Marketing:
+-Marketing Activity 2 – Done
+-Marketing Activity 3 – InProgress
+-Marketing Activity 4 – Done
+-Marketing Activity 5 – InProgress
+-weq – InProgress
+Meeting:
+-Meeting Activity 2 – Done
+-Meeting Activity 3 – InProgress
+-Meeting Activity 4 – Done
+-Meeting Activity 5 – InProgress
+-fwfwef – Done
+-dasd – Done
+-dasd – Done
+-efg – Done
+-dasd – Done
+-dasd – Done
+-dasd – Done
+-dasd – Done
+-dasd – Done

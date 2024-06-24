@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TM.DailyTrackR.DataType")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+668aee1fb58a459bc0b379b5cd1b2272066c4318")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c98d340180819f8e4249631e669d25b3ecabf2c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TM.DailyTrackR.DataType")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TM.DailyTrackR.DataType")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

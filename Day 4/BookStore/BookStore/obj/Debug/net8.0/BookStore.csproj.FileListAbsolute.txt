@@ -1,0 +1,127 @@
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\appsettings.json
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.exe
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.deps.json
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.runtimeconfig.json
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\DnsClient.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\MediatR.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\Scrutor.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\Snappier.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.Application.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.Data.MongoDB.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.Domain.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.Application.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.Data.MongoDB.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.Domain.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\BookStore.csproj.AssemblyReference.cache
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\BookStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\BookStore.AssemblyInfoInputs.cache
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\BookStore.AssemblyInfo.cs
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\BookStore.csproj.CoreCompileInputs.cache
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\BookStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\staticwebassets\msbuild.BookStore.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\staticwebassets\msbuild.build.BookStore.props
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BookStore.props
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BookStore.props
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\scopedcss\bundle\BookStore.styles.css
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\BookStore.csproj.Up2Date
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\BookStore.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\refint\BookStore.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\BookStore.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\BookStore.genruntimeconfig.cache
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\ref\BookStore.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.Data.Abstractions.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.Data.Abstractions.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.Repositories.dll
+C:\Users\diacon\Desktop\BookStore\BookStore\bin\Debug\net8.0\BookStore.Repositories.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore\obj\Debug\net8.0\BookStore.MvcApplicationPartsAssemblyInfo.cs
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\appsettings.Development.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\appsettings.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.exe
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.deps.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.runtimeconfig.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\AWSSDK.Core.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\DnsClient.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\FluentValidation.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\MediatR.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Scrutor.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\SharpCompress.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Snappier.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\ZstdSharp.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Application.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Data.Abstractions.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Data.MongoDB.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Domain.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Repositories.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Application.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Data.Abstractions.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Data.MongoDB.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Domain.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Repositories.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.csproj.AssemblyReference.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.GeneratedMSBuildEditorConfig.editorconfig
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.AssemblyInfoInputs.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.AssemblyInfo.cs
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.csproj.CoreCompileInputs.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.MvcApplicationPartsAssemblyInfo.cs
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.MvcApplicationPartsAssemblyInfo.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.sourcelink.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\staticwebassets.build.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\staticwebassets.development.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\staticwebassets\msbuild.BookStore.Microsoft.AspNetCore.StaticWebAssets.props
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\staticwebassets\msbuild.build.BookStore.props
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BookStore.props
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BookStore.props
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\staticwebassets.pack.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\scopedcss\bundle\BookStore.styles.css
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.csproj.Up2Date
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\refint\BookStore.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.genruntimeconfig.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\ref\BookStore.dll

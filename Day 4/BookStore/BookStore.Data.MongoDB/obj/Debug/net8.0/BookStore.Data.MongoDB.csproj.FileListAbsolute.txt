@@ -1,0 +1,35 @@
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.MongoDB.deps.json
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.MongoDB.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.MongoDB.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Domain.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Domain.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.csproj.AssemblyReference.cache
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.AssemblyInfoInputs.cache
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.AssemblyInfo.cs
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.csproj.CoreCompileInputs.cache
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStor.E99003B6.Up2Date
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\refint\BookStore.Data.MongoDB.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\ref\BookStore.Data.MongoDB.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.Abstractions.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.Abstractions.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.MongoDB.deps.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.MongoDB.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.MongoDB.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.Abstractions.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Domain.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.Abstractions.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Domain.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.csproj.AssemblyReference.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.GeneratedMSBuildEditorConfig.editorconfig
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.AssemblyInfoInputs.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.AssemblyInfo.cs
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.csproj.CoreCompileInputs.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.sourcelink.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStor.E99003B6.Up2Date
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\refint\BookStore.Data.MongoDB.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\ref\BookStore.Data.MongoDB.dll

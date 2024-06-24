@@ -1,0 +1,31 @@
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\bin\Debug\net8.0\BookStore.Data.Abstractions.deps.json
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\bin\Debug\net8.0\BookStore.Data.Abstractions.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\bin\Debug\net8.0\BookStore.Data.Abstractions.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\bin\Debug\net8.0\BookStore.Domain.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\bin\Debug\net8.0\BookStore.Domain.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.csproj.AssemblyReference.cache
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.AssemblyInfoInputs.cache
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.AssemblyInfo.cs
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStor.3D18F4B5.Up2Date
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\refint\BookStore.Data.Abstractions.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\ref\BookStore.Data.Abstractions.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\bin\Debug\net8.0\BookStore.Data.Abstractions.deps.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\bin\Debug\net8.0\BookStore.Data.Abstractions.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\bin\Debug\net8.0\BookStore.Data.Abstractions.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\bin\Debug\net8.0\BookStore.Domain.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\bin\Debug\net8.0\BookStore.Domain.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.csproj.AssemblyReference.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.AssemblyInfoInputs.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.AssemblyInfo.cs
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.csproj.CoreCompileInputs.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.sourcelink.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStor.3D18F4B5.Up2Date
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\refint\BookStore.Data.Abstractions.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\BookStore.Data.Abstractions.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Data.Abstractions\obj\Debug\net8.0\ref\BookStore.Data.Abstractions.dll

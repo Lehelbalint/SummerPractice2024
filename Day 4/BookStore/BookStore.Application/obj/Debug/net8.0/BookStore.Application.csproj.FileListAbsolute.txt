@@ -1,0 +1,39 @@
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Application.deps.json
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Application.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Application.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Domain.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Domain.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.csproj.AssemblyReference.cache
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.AssemblyInfoInputs.cache
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.AssemblyInfo.cs
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.csproj.CoreCompileInputs.cache
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStor.D70AE061.Up2Date
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\refint\BookStore.Application.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\ref\BookStore.Application.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Data.Abstractions.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Repositories.dll
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Repositories.pdb
+C:\Users\diacon\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Data.Abstractions.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Application.deps.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Application.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Application.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Data.Abstractions.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Domain.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Repositories.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Domain.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Repositories.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Data.Abstractions.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.csproj.AssemblyReference.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.AssemblyInfoInputs.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.AssemblyInfo.cs
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.csproj.CoreCompileInputs.cache
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.sourcelink.json
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStor.D70AE061.Up2Date
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\obj\Debug\net8.0\refint\BookStore.Application.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.pdb
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Application\obj\Debug\net8.0\ref\BookStore.Application.dll

@@ -21,3 +21,4 @@ D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.D
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Domain\obj\Debug\net8.0\refint\BookStore.Domain.dll
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Domain\obj\Debug\net8.0\BookStore.Domain.pdb
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Domain\obj\Debug\net8.0\ref\BookStore.Domain.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore.Domain\obj\Debug\net8.0\BookStore.Domain.csproj.AssemblyReference.cache

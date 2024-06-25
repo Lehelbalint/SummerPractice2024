@@ -125,3 +125,11 @@ D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\o
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.pdb
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\BookStore.genruntimeconfig.cache
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\obj\Debug\net8.0\ref\BookStore.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day 4\BookStore\BookStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

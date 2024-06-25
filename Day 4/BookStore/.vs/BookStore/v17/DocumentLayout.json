@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9AA587B8-A419-4DB3-8D20-129061925F68}|BookStore.Domain\\BookStore.Domain.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore.domain\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA587B8-A419-4DB3-8D20-129061925F68}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA587B8-A419-4DB3-8D20-129061925F68}|BookStore.Domain\\BookStore.Domain.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA587B8-A419-4DB3-8D20-129061925F68}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA587B8-A419-4DB3-8D20-129061925F68}|BookStore.Domain\\BookStore.Domain.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore.domain\\bookstore.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9AA587B8-A419-4DB3-8D20-129061925F68}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\bookstore.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA587B8-A419-4DB3-8D20-129061925F68}|BookStore.Domain\\BookStore.Domain.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore.domain\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA587B8-A419-4DB3-8D20-129061925F68}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA587B8-A419-4DB3-8D20-129061925F68}|BookStore.Domain\\BookStore.Domain.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore.domain\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA587B8-A419-4DB3-8D20-129061925F68}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D508D8AC-9A91-4F52-ACED-98BEFC36CB83}|BookStore.Data.Abstractions\\BookStore.Data.Abstractions.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore.data.abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -177,10 +205,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9AA587B8-A419-4DB3-8D20-129061925F68}|BookStore.Domain\\BookStore.Domain.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore.domain\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AA587B8-A419-4DB3-8D20-129061925F68}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day 4\\bookstore\\bookstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{235AA0E4-3A25-4D15-870C-078775C7F981}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -190,7 +214,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -205,47 +229,109 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BookStore\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BookStore\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwC4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T15:15:55.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookStore.Domain.csproj",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Domain\\BookStore.Domain.csproj",
+              "RelativeDocumentMoniker": "BookStore.Domain\\BookStore.Domain.csproj",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Domain\\BookStore.Domain.csproj",
+              "RelativeToolTip": "BookStore.Domain\\BookStore.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-25T15:10:35.456Z"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UpdateBookResponse.cs",
-              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookResponse.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\UpdateBook\\UpdateBookResponse.cs",
-              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookResponse.cs",
-              "RelativeToolTip": "BookStore.Application\\UpdateBook\\UpdateBookResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Domain\\User.cs",
+              "RelativeDocumentMoniker": "BookStore.Domain\\User.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Domain\\User.cs",
+              "RelativeToolTip": "BookStore.Domain\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T11:09:02.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T15:10:45.605Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UpdateBookHandler.cs",
-              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookHandler.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\UpdateBook\\UpdateBookHandler.cs",
-              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookHandler.cs",
-              "RelativeToolTip": "BookStore.Application\\UpdateBook\\UpdateBookHandler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAADAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\Program.cs",
+              "RelativeDocumentMoniker": "BookStore\\Program.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\Program.cs",
+              "RelativeToolTip": "BookStore\\Program.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAQwFoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T11:08:50.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateBookRequest.cs",
-              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookRequest.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\UpdateBook\\UpdateBookRequest.cs",
-              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookRequest.cs",
-              "RelativeToolTip": "BookStore.Application\\UpdateBook\\UpdateBookRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T11:08:31.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T10:01:15.061Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\appsettings.json",
+              "RelativeDocumentMoniker": "BookStore\\appsettings.json",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\appsettings.json",
+              "RelativeToolTip": "BookStore\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-21T08:03:29.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PassWordHasher.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Domain\\PassWordHasher.cs",
+              "RelativeDocumentMoniker": "BookStore.Domain\\PassWordHasher.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Domain\\PassWordHasher.cs",
+              "RelativeToolTip": "BookStore.Domain\\PassWordHasher.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T15:14:36.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Domain\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "BookStore.Domain\\AuthenticationService.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Domain\\AuthenticationService.cs",
+              "RelativeToolTip": "BookStore.Domain\\AuthenticationService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAgwBQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T15:15:24.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Domain\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "BookStore.Domain\\JwtSettings.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Domain\\JwtSettings.cs",
+              "RelativeToolTip": "BookStore.Domain\\JwtSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T15:14:02.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BookRepository.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Repositories\\BookRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Repositories\\BookRepository.cs",
@@ -253,12 +339,23 @@
               "RelativeToolTip": "BookStore.Repositories\\BookRepository.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAewC4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T08:04:15.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T08:04:15.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "BookStore\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "BookStore\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA8wD4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T08:03:39.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "BookStore\\Controllers\\WeatherForecastController.cs",
@@ -266,29 +363,47 @@
               "RelativeToolTip": "BookStore\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAjwBYAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T07:01:42.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T07:01:42.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "BookStore\\Controllers\\BooksController.cs",
-              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "BookStore\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAD4AAAADAAAA",
+              "DocumentIndex": 12,
+              "Title": "UpdateBookRequest.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookRequest.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\UpdateBook\\UpdateBookRequest.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookRequest.cs",
+              "RelativeToolTip": "BookStore.Application\\UpdateBook\\UpdateBookRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T08:03:39.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2024-06-24T11:08:31.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
+              "Title": "UpdateBookHandler.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookHandler.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\UpdateBook\\UpdateBookHandler.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookHandler.cs",
+              "RelativeToolTip": "BookStore.Application\\UpdateBook\\UpdateBookHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T11:08:50.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateBookResponse.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookResponse.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\UpdateBook\\UpdateBookResponse.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookResponse.cs",
+              "RelativeToolTip": "BookStore.Application\\UpdateBook\\UpdateBookResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T11:09:02.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UpdateBookValidator.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookValidator.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\UpdateBook\\UpdateBookValidator.cs",
@@ -296,25 +411,23 @@
               "RelativeToolTip": "BookStore.Application\\UpdateBook\\UpdateBookValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T11:09:25.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T11:09:25.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BookStore.Data.Abstractions",
+              "DocumentIndex": 15,
+              "Title": "BookStore.Data.Abstractions.csproj",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Data.Abstractions\\BookStore.Data.Abstractions.csproj",
               "RelativeDocumentMoniker": "BookStore.Data.Abstractions\\BookStore.Data.Abstractions.csproj",
               "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Data.Abstractions\\BookStore.Data.Abstractions.csproj",
               "RelativeToolTip": "BookStore.Data.Abstractions\\BookStore.Data.Abstractions.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-24T11:13:27.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T11:13:27.205Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "DeleteBookByIdResponse.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\DeleteBookById\\DeleteBookByIdResponse.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\DeleteBookById\\DeleteBookByIdResponse.cs",
@@ -322,12 +435,11 @@
               "RelativeToolTip": "BookStore.Application\\DeleteBookById\\DeleteBookByIdResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:43:44.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T09:43:44.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "IDatabaseConfiguration.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Data.Abstractions\\IDatabaseConfiguration.cs",
               "RelativeDocumentMoniker": "BookStore.Data.Abstractions\\IDatabaseConfiguration.cs",
@@ -335,12 +447,11 @@
               "RelativeToolTip": "BookStore.Data.Abstractions\\IDatabaseConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:16:37.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:16:37.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "GetBookByIdRequest.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\GetBookById\\GetBookByIdRequest.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\GetBookById\\GetBookByIdRequest.cs",
@@ -348,12 +459,11 @@
               "RelativeToolTip": "BookStore.Application\\GetBookById\\GetBookByIdRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:44:14.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T09:44:14.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "Database.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Data.MongoDB\\Database.cs",
               "RelativeDocumentMoniker": "BookStore.Data.MongoDB\\Database.cs",
@@ -361,12 +471,11 @@
               "RelativeToolTip": "BookStore.Data.MongoDB\\Database.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAWwBoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T08:04:37.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T08:04:37.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "DeleteBookByIdHandler.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\DeleteBookById\\DeleteBookByIdHandler.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\DeleteBookById\\DeleteBookByIdHandler.cs",
@@ -374,12 +483,11 @@
               "RelativeToolTip": "BookStore.Application\\DeleteBookById\\DeleteBookByIdHandler.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAMwBMAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:43:23.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T09:43:23.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "DeleteBookByIdRequest.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\DeleteBookById\\DeleteBookByIdRequest.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\DeleteBookById\\DeleteBookByIdRequest.cs",
@@ -387,25 +495,23 @@
               "RelativeToolTip": "BookStore.Application\\DeleteBookById\\DeleteBookByIdRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:43:32.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T09:43:32.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "GetBookByIdHandler.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\GetBookById\\GetBookByIdHandler.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\GetBookById\\GetBookByIdHandler.cs",
               "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\GetBookById\\GetBookByIdHandler.cs",
               "RelativeToolTip": "BookStore.Application\\GetBookById\\GetBookByIdHandler.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAEAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:17:14.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:17:14.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "IBookRepository.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Data.Abstractions\\IBookRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Data.Abstractions\\IBookRepository.cs",
@@ -413,38 +519,23 @@
               "RelativeToolTip": "BookStore.Data.Abstractions\\IBookRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:16:32.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:16:32.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\Program.cs",
-              "RelativeDocumentMoniker": "BookStore\\Program.cs",
-              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\Program.cs",
-              "RelativeToolTip": "BookStore\\Program.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwDIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T10:01:15.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "DatabaseConfiguration.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Data.MongoDB\\DatabaseConfiguration.cs",
               "RelativeDocumentMoniker": "BookStore.Data.MongoDB\\DatabaseConfiguration.cs",
               "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Data.MongoDB\\DatabaseConfiguration.cs",
               "RelativeToolTip": "BookStore.Data.MongoDB\\DatabaseConfiguration.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAEAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T10:27:00.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T10:27:00.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "BookStore\\WeatherForecast.cs",
@@ -452,12 +543,11 @@
               "RelativeToolTip": "BookStore\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:17:47.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:17:47.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Data.Abstractions\\IRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Data.Abstractions\\IRepository.cs",
@@ -465,12 +555,11 @@
               "RelativeToolTip": "BookStore.Data.Abstractions\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:16:40.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:16:40.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "IDatabase.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Data.Abstractions\\IDatabase.cs",
               "RelativeDocumentMoniker": "BookStore.Data.Abstractions\\IDatabase.cs",
@@ -478,12 +567,11 @@
               "RelativeToolTip": "BookStore.Data.Abstractions\\IDatabase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T08:14:39.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T08:14:39.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "BookRepositoryTests.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Tests\\BookRepositoryTests.cs",
               "RelativeDocumentMoniker": "BookStore.Tests\\BookRepositoryTests.cs",
@@ -496,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "BookStore.Tests.csproj",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Tests\\BookStore.Tests.csproj",
               "RelativeDocumentMoniker": "BookStore.Tests\\BookStore.Tests.csproj",
@@ -504,25 +592,23 @@
               "RelativeToolTip": "BookStore.Tests\\BookStore.Tests.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-21T10:44:01.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T10:44:01.486Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "BookStore.Repositories",
+              "DocumentIndex": 30,
+              "Title": "BookStore.Repositories.csproj",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Repositories\\BookStore.Repositories.csproj",
               "RelativeDocumentMoniker": "BookStore.Repositories\\BookStore.Repositories.csproj",
               "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Repositories\\BookStore.Repositories.csproj",
               "RelativeToolTip": "BookStore.Repositories\\BookStore.Repositories.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-24T08:11:57.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:11:57.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Domain\\Book.cs",
               "RelativeDocumentMoniker": "BookStore.Domain\\Book.cs",
@@ -530,25 +616,23 @@
               "RelativeToolTip": "BookStore.Domain\\Book.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:12:58.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:12:58.273Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "InsertBookHandler.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\InsertBook\\InsertBookHandler.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\InsertBook\\InsertBookHandler.cs",
               "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\InsertBook\\InsertBookHandler.cs",
               "RelativeToolTip": "BookStore.Application\\InsertBook\\InsertBookHandler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAEAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwB8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:04:01.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T09:04:01.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "DeleteBookByIdValidator.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\DeleteBookById\\DeleteBookByIdValidator.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\DeleteBookById\\DeleteBookByIdValidator.cs",
@@ -556,12 +640,11 @@
               "RelativeToolTip": "BookStore.Application\\DeleteBookById\\DeleteBookByIdValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:43:55.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T09:43:55.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "InsertBookResponse.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\InsertBook\\InsertBookResponse.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\InsertBook\\InsertBookResponse.cs",
@@ -569,12 +652,11 @@
               "RelativeToolTip": "BookStore.Application\\InsertBook\\InsertBookResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:04:58.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T09:04:58.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "InsertBookRequest.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\InsertBook\\InsertBookRequest.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\InsertBook\\InsertBookRequest.cs",
@@ -582,12 +664,11 @@
               "RelativeToolTip": "BookStore.Application\\InsertBook\\InsertBookRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:04:43.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T09:04:43.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "GetBookByIdValidator.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\GetBookById\\GetBookByIdValidator.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\GetBookById\\GetBookByIdValidator.cs",
@@ -595,12 +676,11 @@
               "RelativeToolTip": "BookStore.Application\\GetBookById\\GetBookByIdValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:06:19.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T09:06:19.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "GetBookByIdResponse.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\GetBookById\\GetBookByIdResponse.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\GetBookById\\GetBookByIdResponse.cs",
@@ -608,12 +688,11 @@
               "RelativeToolTip": "BookStore.Application\\GetBookById\\GetBookByIdResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:44:50.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T09:44:50.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "GetAllBooksHandler.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\GetAllBooks\\GetAllBooksHandler.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\GetAllBooks\\GetAllBooksHandler.cs",
@@ -621,12 +700,11 @@
               "RelativeToolTip": "BookStore.Application\\GetAllBooks\\GetAllBooksHandler.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAuwA4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:20:22.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:20:22.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "InsertBookValidator.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\InsertBook\\InsertBookValidator.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\InsertBook\\InsertBookValidator.cs",
@@ -634,25 +712,23 @@
               "RelativeToolTip": "BookStore.Application\\InsertBook\\InsertBookValidator.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAMwBUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:05:12.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T09:05:12.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "BookStore.Application",
+              "DocumentIndex": 38,
+              "Title": "BookStore.Application.csproj",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\BookStore.Application.csproj",
               "RelativeDocumentMoniker": "BookStore.Application\\BookStore.Application.csproj",
               "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\BookStore.Application.csproj",
               "RelativeToolTip": "BookStore.Application\\BookStore.Application.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-24T08:19:21.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:19:21.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "GetAllBooksRequest.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\GetAllBooks\\GetAllBooksRequest.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\GetAllBooks\\GetAllBooksRequest.cs",
@@ -660,12 +736,11 @@
               "RelativeToolTip": "BookStore.Application\\GetAllBooks\\GetAllBooksRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:20:53.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:20:53.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "BookStore.Data.MongoDB.csproj",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Data.MongoDB\\BookStore.Data.MongoDB.csproj",
               "RelativeDocumentMoniker": "BookStore.Data.MongoDB\\BookStore.Data.MongoDB.csproj",
@@ -673,12 +748,11 @@
               "RelativeToolTip": "BookStore.Data.MongoDB\\BookStore.Data.MongoDB.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-21T10:44:05.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T10:44:05.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "GetAllBooksResponse.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\GetAllBooks\\GetAllBooksResponse.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\GetAllBooks\\GetAllBooksResponse.cs",
@@ -686,12 +760,11 @@
               "RelativeToolTip": "BookStore.Application\\GetAllBooks\\GetAllBooksResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:21:15.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:21:15.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "GetAllBooksValidator.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\GetAllBooks\\GetAllBooksValidator.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\GetAllBooks\\GetAllBooksValidator.cs",
@@ -699,12 +772,11 @@
               "RelativeToolTip": "BookStore.Application\\GetAllBooks\\GetAllBooksValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:21:35.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:21:35.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "GetWeatherForecastHandler.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\GetWeatherForecast\\GetWeatherForecastHandler.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\GetWeatherForecast\\GetWeatherForecastHandler.cs",
@@ -712,12 +784,11 @@
               "RelativeToolTip": "BookStore.Application\\GetWeatherForecast\\GetWeatherForecastHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:34:47.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:34:47.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "GetWeatherForecastRequest.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\GetWeatherForecast\\GetWeatherForecastRequest.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\GetWeatherForecast\\GetWeatherForecastRequest.cs",
@@ -725,12 +796,11 @@
               "RelativeToolTip": "BookStore.Application\\GetWeatherForecast\\GetWeatherForecastRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:34:42.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:34:42.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "GetWeatherForecastResponse.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\GetWeatherForecast\\GetWeatherForecastResponse.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\GetWeatherForecast\\GetWeatherForecastResponse.cs",
@@ -738,12 +808,11 @@
               "RelativeToolTip": "BookStore.Application\\GetWeatherForecast\\GetWeatherForecastResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:34:37.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:34:37.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "GetWeatherForecastValidator.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Application\\GetWeatherForecast\\GetWeatherForecastValidator.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\GetWeatherForecast\\GetWeatherForecastValidator.cs",
@@ -751,25 +820,23 @@
               "RelativeToolTip": "BookStore.Application\\GetWeatherForecast\\GetWeatherForecastValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:34:37.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:34:37.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "BookStore",
+              "DocumentIndex": 49,
+              "Title": "BookStore.csproj",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\BookStore.csproj",
               "RelativeDocumentMoniker": "BookStore\\BookStore.csproj",
               "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\BookStore.csproj",
               "RelativeToolTip": "BookStore\\BookStore.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-24T08:17:44.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:17:44.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 50,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore.Domain\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "BookStore.Domain\\WeatherForecast.cs",
@@ -777,21 +844,7 @@
               "RelativeToolTip": "BookStore.Domain\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:12:55.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\appsettings.json",
-              "RelativeDocumentMoniker": "BookStore\\appsettings.json",
-              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day 4\\BookStore\\BookStore\\appsettings.json",
-              "RelativeToolTip": "BookStore\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-21T08:03:29.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:12:55.314Z"
             }
           ]
         },

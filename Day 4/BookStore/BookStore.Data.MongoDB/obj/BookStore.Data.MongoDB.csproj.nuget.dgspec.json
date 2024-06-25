@@ -53,6 +53,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.26.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -126,6 +136,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.26.0, )"
@@ -196,6 +210,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.26.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -17,7 +17,6 @@
 			DataContext = new MainWindowViewModel();
 			
 		}
-
 		private void ExportToFile(object sender, RoutedEventArgs e)
 		{
 			if (textBlock.Text != "")

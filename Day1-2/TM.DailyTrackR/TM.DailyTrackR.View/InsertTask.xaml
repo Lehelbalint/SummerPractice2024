@@ -5,36 +5,52 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TM.DailyTrackR.View"
         mc:Ignorable="d"
-        Title="InsertTask" Height="450" Width="800">
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        Title="New Activity" Height="300" Width="640">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Height" Value="25"/>
+        </Style>
+    </Window.Resources>
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="3*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <StackPanel>
-            <TextBlock Margin="10,30,0,0">Project Type</TextBlock>
-            <TextBlock Margin="10,10,0,0">Task Type</TextBlock>
-            <TextBlock Margin="10,10,0,0">Description</TextBlock>
-            <TextBlock Margin="10,10,0,0">Status</TextBlock>
-            <TextBlock Margin="10,10,0,0">Date</TextBlock>
-        </StackPanel>
-        <StackPanel Grid.Column="1">
-            <ComboBox x:Name="ProjectTypeCB" Margin="0,30,0,0">
-            </ComboBox>
-            <ComboBox x:Name="TaskTypeCB" Margin="0,5,0,0">
-            </ComboBox>
-            <TextBox x:Name="DescriptionTextBox" Margin="0,5,0,0">
-            </TextBox>
-            <ComboBox x:Name="StatusCB" Margin="0,5,0,0">
-            </ComboBox>
-            <DatePicker x:Name="DatePicker" Width="150" Margin="0,5,0,0" HorizontalAlignment="Left">
-            </DatePicker>
+        <Grid Background="LightGray" Height="230" Width="Auto" VerticalAlignment="Top" Margin="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
 
-            <Button Click="SaveButton_Click" Width="100" HorizontalAlignment="Right">
-                Save
-            </Button>
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <TextBlock Margin="10,30,0,0">Project Type</TextBlock>
+                <TextBlock Margin="10,10,0,0">Task Type</TextBlock>
+                <TextBlock Margin="10,10,0,0">Description</TextBlock>
+                <TextBlock Margin="10,10,0,0">Status</TextBlock>
+                <TextBlock Margin="10,10,0,0">Date</TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <ComboBox x:Name="ProjectTypeCB" Background="White" Margin="0,30,0,0">
+                </ComboBox>
+                <ComboBox x:Name="TaskTypeCB" Margin="0,5,0,0">
+                </ComboBox>
+                <TextBox Height="25" x:Name="DescriptionTextBox" Margin="0,5,0,0">
+                </TextBox>
+                <ComboBox x:Name="StatusCB" Margin="0,5,0,0">
+                </ComboBox>
+                <DatePicker x:Name="DatePicker" Width="150" Height="25" Margin="0,5,0,0" HorizontalAlignment="Left">
+                </DatePicker>
+            </StackPanel>
+        </Grid>
 
-        </StackPanel>
+        <Button Click="SaveButton_Click" Width="100" Height="25"  Background="Blue" FontSize="13" FontWeight="Bold" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            Save
+        </Button>
     </Grid>
 </Window>

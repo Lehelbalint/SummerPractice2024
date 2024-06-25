@@ -9,6 +9,7 @@ namespace TM.DailyTrackR.DataType.Enums
 	public enum StatusEnum
 	{
 		InProgress = 1,
-		Done =2
+		Done =2,
+		OnHold = 3
 	}
 }

@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49140A3A-CB16-49B4-9B50-EDDB62394D3E}|TM.DailyTrackR.View\\TM.DailyTrackR.View.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day1-2\\tm.dailytrackr\\tm.dailytrackr.view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{49140A3A-CB16-49B4-9B50-EDDB62394D3E}|TM.DailyTrackR.View\\TM.DailyTrackR.View.csproj|solutionrelative:tm.dailytrackr.view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49140A3A-CB16-49B4-9B50-EDDB62394D3E}|TM.DailyTrackR.View\\TM.DailyTrackR.View.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day1-2\\tm.dailytrackr\\tm.dailytrackr.view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49140A3A-CB16-49B4-9B50-EDDB62394D3E}|TM.DailyTrackR.View\\TM.DailyTrackR.View.csproj|solutionrelative:tm.dailytrackr.view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +11,24 @@
       "RelativeMoniker": "D:0:0:{20A05D96-C401-4640-BE5B-7F2AF839E2F5}|TM.DailyTrackR.Logic\\TM.DailyTrackR.Logic.csproj|solutionrelative:tm.dailytrackr.logic\\examplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{49256B95-739A-4321-8BD2-EAC46A766CC4}|TM.DailyTrackR.DataType\\TM.DailyTrackR.DataType.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day1-2\\tm.dailytrackr\\tm.dailytrackr.datatype\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49256B95-739A-4321-8BD2-EAC46A766CC4}|TM.DailyTrackR.DataType\\TM.DailyTrackR.DataType.csproj|solutionrelative:tm.dailytrackr.datatype\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49256B95-739A-4321-8BD2-EAC46A766CC4}|TM.DailyTrackR.DataType\\TM.DailyTrackR.DataType.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day1-2\\tm.dailytrackr\\tm.dailytrackr.datatype\\enums\\statusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49256B95-739A-4321-8BD2-EAC46A766CC4}|TM.DailyTrackR.DataType\\TM.DailyTrackR.DataType.csproj|solutionrelative:tm.dailytrackr.datatype\\enums\\statusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0AAA2549-D060-42D9-AF02-2F66D03FB5CF}|TM.DailyTrackR.ViewModel\\TM.DailyTrackR.ViewModel.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day1-2\\tm.dailytrackr\\tm.dailytrackr.viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AAA2549-D060-42D9-AF02-2F66D03FB5CF}|TM.DailyTrackR.ViewModel\\TM.DailyTrackR.ViewModel.csproj|solutionrelative:tm.dailytrackr.viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49256B95-739A-4321-8BD2-EAC46A766CC4}|TM.DailyTrackR.DataType\\TM.DailyTrackR.DataType.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day1-2\\tm.dailytrackr\\tm.dailytrackr.datatype\\enums\\tasktypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49256B95-739A-4321-8BD2-EAC46A766CC4}|TM.DailyTrackR.DataType\\TM.DailyTrackR.DataType.csproj|solutionrelative:tm.dailytrackr.datatype\\enums\\tasktypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49140A3A-CB16-49B4-9B50-EDDB62394D3E}|TM.DailyTrackR.View\\TM.DailyTrackR.View.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day1-2\\tm.dailytrackr\\tm.dailytrackr.view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{49140A3A-CB16-49B4-9B50-EDDB62394D3E}|TM.DailyTrackR.View\\TM.DailyTrackR.View.csproj|solutionrelative:tm.dailytrackr.view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49140A3A-CB16-49B4-9B50-EDDB62394D3E}|TM.DailyTrackR.View\\TM.DailyTrackR.View.csproj|d:\\summerpractice2024-balintlehel\\summerpractice2024\\day1-2\\tm.dailytrackr\\tm.dailytrackr.view\\inserttask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,54 +58,101 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "TaskTypeEnum.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.DataType\\Enums\\TaskTypeEnum.cs",
+              "RelativeDocumentMoniker": "TM.DailyTrackR.DataType\\Enums\\TaskTypeEnum.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.DataType\\Enums\\TaskTypeEnum.cs",
+              "RelativeToolTip": "TM.DailyTrackR.DataType\\Enums\\TaskTypeEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:26:09.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatusEnum.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.DataType\\Enums\\StatusEnum.cs",
+              "RelativeDocumentMoniker": "TM.DailyTrackR.DataType\\Enums\\StatusEnum.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.DataType\\Enums\\StatusEnum.cs",
+              "RelativeToolTip": "TM.DailyTrackR.DataType\\Enums\\StatusEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:26:07.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Activity.cs",
+              "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.DataType\\Activity.cs",
+              "RelativeDocumentMoniker": "TM.DailyTrackR.DataType\\Activity.cs",
+              "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.DataType\\Activity.cs",
+              "RelativeToolTip": "TM.DailyTrackR.DataType\\Activity.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:47:23.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "InsertTask.xaml",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.View\\InsertTask.xaml",
               "RelativeDocumentMoniker": "TM.DailyTrackR.View\\InsertTask.xaml",
               "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.View\\InsertTask.xaml",
               "RelativeToolTip": "TM.DailyTrackR.View\\InsertTask.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-24T14:57:54.268Z"
+              "WhenOpened": "2024-06-24T14:57:54.268Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.ViewModel\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "TM.DailyTrackR.ViewModel\\MainWindowViewModel.cs",
               "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.ViewModel\\MainWindowViewModel.cs",
               "RelativeToolTip": "TM.DailyTrackR.ViewModel\\MainWindowViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAADAAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAcwGcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T13:06:59.924Z"
+              "WhenOpened": "2024-06-24T13:06:59.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ExampleController.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.Logic\\ExampleController.cs",
               "RelativeDocumentMoniker": "TM.DailyTrackR.Logic\\ExampleController.cs",
               "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.Logic\\ExampleController.cs",
               "RelativeToolTip": "TM.DailyTrackR.Logic\\ExampleController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAFAAAA",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAkwI0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:25:20.093Z"
+              "WhenOpened": "2024-06-24T12:25:20.093Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.View\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "TM.DailyTrackR.View\\MainWindow.xaml.cs",
               "ToolTip": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.View\\MainWindow.xaml.cs",
               "RelativeToolTip": "TM.DailyTrackR.View\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBgAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:22:39.442Z"
+              "WhenOpened": "2024-06-24T12:22:39.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\TM.DailyTrackR.View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TM.DailyTrackR.View\\MainWindow.xaml",

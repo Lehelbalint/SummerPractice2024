@@ -1,0 +1,38 @@
+Team Activity in the period 12.06.2024 – 19.06.2024
+
+Administrative:
+
+    - Administrative Activity 2
+    - Administrative Activity 3 – InProgress
+
+Fixes:
+    - Administrative Activity 4
+    - Administrative Activity 5 – InProgress
+
+Development:
+
+    - Development Activity 2
+    - Development Activity 3 – InProgress
+
+Fixes:
+    - Development Activity 4
+    - Development Activity 5 – InProgress
+
+Marketing:
+
+    - Marketing Activity 2
+    - Marketing Activity 3 – InProgress
+
+Fixes:
+    - Marketing Activity 4
+    - Marketing Activity 5 – InProgress
+
+Meeting:
+
+    - Meeting Activity 2
+    - Meeting Activity 3 – InProgress
+
+Fixes:
+    - Meeting Activity 4
+    - Meeting Activity 5 – InProgress
+

@@ -122,10 +122,13 @@
 						Console.WriteLine("Request Succefull");
 						SqlDataReader reader = command.ExecuteReader();
 						List<Activity> activities = new();
+						int counter = 0;
 						while (reader.Read())
-						{
+						{	
+							counter++;
 							Activity activity = new Activity
 							{
+								No = counter,
 								Id = (int)reader["id"],
 								ActivityDescription = (string)reader["adescription"],
 								ProjectTypeDescription = (string)reader["ptdescription"],
@@ -137,11 +140,6 @@
 						}
 						Console.WriteLine(activities.Count);
 						return activities;
-						//activities.Add()
-						// activities.Add((int)reader["project_type_id"], (string)reader["project_type_description"]);
-						//}
-						// string version = (string)command.ExecuteScalar();
-						//System.Diagnostics.Debug.WriteLine("SQL Server Version: " + version);
 					}
 
 				}
@@ -209,10 +207,13 @@
 						//Console.WriteLine("Request Succefull");
 						SqlDataReader reader = command.ExecuteReader();
 						List<Activity> activities = new();
+						int counter = 0;
 						while (reader.Read())
 						{
+							 counter++;
 							Activity activity = new Activity
 							{
+								No = counter,
 								Id = (int)reader["id"],
 								ActivityDescription = (string)reader["adescription"],
 								ProjectTypeDescription = (string)reader["ptdescription"],
@@ -224,11 +225,6 @@
 						}
 						Console.WriteLine(activities.Count);
 						return activities;
-						//activities.Add()
-						// activities.Add((int)reader["project_type_id"], (string)reader["project_type_description"]);
-						//}
-						// string version = (string)command.ExecuteScalar();
-						//System.Diagnostics.Debug.WriteLine("SQL Server Version: " + version);
 					}
 
 				}
@@ -243,26 +239,3 @@
 	}
 
 }
-
-//  public int GetDataExample()
-//  {
-//    string query = "SELECT @@VERSION";
-
-//    using SqlConnection connection = new SqlConnection(connectionString);
-
-//    try
-//    {
-//      connection.Open();
-
-//      using SqlCommand command = new SqlCommand(query, connection);
-//      string version = (string)command.ExecuteScalar();
-//      System.Diagnostics.Debug.WriteLine("SQL Server Version: " + version);
-//connection.Close();
-//    }
-//    catch (Exception ex)
-//    {
-//      Console.WriteLine("An error occurred: " + ex.Message);
-//    }
-
-//    return 0;
-//  }

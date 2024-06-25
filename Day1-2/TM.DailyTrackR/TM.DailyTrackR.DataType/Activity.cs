@@ -10,6 +10,7 @@ namespace TM.DailyTrackR.DataType
 {
 	public class Activity
 	{
+        public int No {  get; set; }
         public int Id { get; set; }
 		public string ProjectTypeDescription { get; set; }
 		public  TaskTypeEnum ActivityType_Id { get; set; }

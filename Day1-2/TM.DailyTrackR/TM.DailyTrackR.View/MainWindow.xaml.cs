@@ -7,6 +7,7 @@
 	using System.Windows.Documents;
 	using TM.DailyTrackR.Common;
 	using TM.DailyTrackR.DataType;
+	using TM.DailyTrackR.DataType.Enums;
 	using TM.DailyTrackR.ViewModel;
 
 	public partial class MainWindow : Window
@@ -34,7 +35,7 @@
 				MessageBox.Show("Select the period");
 			}
 		}
-		public void ExportActivitiesToTxt(List<Activity> activities, string filePath, DateTime startDate,DateTime endDate)
+		public void ExportActivitiesToTxt(List<Activity> activities, string filePath, DateTime startDate, DateTime endDate)
 		{
 			var groupedActivities = activities
 				.GroupBy(a => a.ProjectTypeDescription)
@@ -48,15 +49,47 @@
 				foreach (var group in groupedActivities)
 				{
 					writer.WriteLine($"{group.Key}:");
-					foreach (var activity in group)
+
+					var newTasks = group.Where(a => a.ActivityType_Id == TaskTypeEnum.New).OrderBy(a => a.ActivityDescription);
+					var fixTasks = group.Where(a => a.ActivityType_Id == TaskTypeEnum.Fix).OrderBy(a => a.ActivityDescription);
+
+					if (newTasks.Any())
 					{
-						writer.WriteLine($"-{activity.ActivityDescription} – {activity.Status_Id}");
+						writer.WriteLine();
+						foreach (var activity in newTasks)
+						{
+							if (activity.Status_Id == StatusEnum.InProgress || activity.Status_Id == StatusEnum.OnHold)
+							{
+								writer.WriteLine($"- {activity.ActivityDescription} – {activity.Status_Id}");
+							}
+							else
+							{
+								writer.WriteLine($"- {activity.ActivityDescription}");
+							}
+						}
+						writer.WriteLine();
 					}
-					writer.WriteLine();
+
+					if (fixTasks.Any())
+					{
+						writer.WriteLine("Fixes:");
+						foreach (var activity in fixTasks)
+						{
+							if (activity.Status_Id == StatusEnum.InProgress || activity.Status_Id == StatusEnum.OnHold)
+							{
+								writer.WriteLine($"- {activity.ActivityDescription} – {activity.Status_Id}");
+							}
+							else
+							{
+								writer.WriteLine($"- {activity.ActivityDescription}");
+							}
+						}
+						writer.WriteLine();
+					}
 				}
 			}
 		}
-			private void Calendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
+		private void Calendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
 		{
 			if (calendar.SelectedDates.Count > 0)
 			{

@@ -25,11 +25,13 @@
 			{
 				var startDate = calendar.SelectedDates.Min();
 				var endDate = calendar.SelectedDates.Max();
-				var activitiesRange = LogicHelper.Instance.ExampleController.GetActivitiesByDate(startDate, endDate);
+				var activitiesRange = LogicHelper.Instance.OverviewTaskController.GetActivitiesByDate(startDate, endDate);
 				var filename = $"TeamWeekActivity_{startDate.ToString("dd.MM.yyyy")}_{endDate.ToString("dd.MM.yyyy")}.txt";
 				string filePath = $"D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\{filename}"; // Add meg a fájl elérési útját
 				ExportActivitiesToTxt(activitiesRange, filePath, startDate, endDate);
 				MessageBox.Show("Data Exported");
+
+
 			}
 			else {
 				MessageBox.Show("Select the period");
@@ -124,7 +126,7 @@
 					var editedItem = dataGrid.SelectedItem as Activity;
 					if (editedItem != null)
 					{
-						LogicHelper.Instance.ExampleController.UpdateActivity(editedItem);
+						LogicHelper.Instance.DailyTaskController.UpdateActivity(editedItem);
 					}
 				}
 			}

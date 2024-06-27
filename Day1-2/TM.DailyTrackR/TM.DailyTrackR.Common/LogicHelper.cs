@@ -7,11 +7,17 @@
     private static readonly Lazy<LogicHelper> Lazy = new Lazy<LogicHelper>(() => new LogicHelper(), isThreadSafe: true);
     private LogicHelper()
     {
-      ExampleController = new ExampleController();
+      DailyTaskController = new DailyTaskController();
+      InsertTaskController = new InsertTaskController();
+      LoginController = new LoginController();
+      OverviewTaskController = new OverviewTaskController();
     }
 
     public static LogicHelper Instance { get { return Lazy.Value; } }
 
-    public ExampleController ExampleController { get; }
+    public DailyTaskController DailyTaskController { get; }
+    public InsertTaskController InsertTaskController { get; }
+    public LoginController LoginController { get; }
+    public OverviewTaskController OverviewTaskController { get; }
   }
 }

@@ -54,7 +54,8 @@ namespace TM.DailyTrackR.View
 			}
 			if (isAnyFieldFilled)
 			{
-				LogicHelper.Instance.ExampleController.InsertActivity(ProjectTypeCB.SelectedIndex + 1, TaskTypeCB.SelectedIndex + 1, DescriptionTextBox.Text, "User A", StatusCB.SelectedIndex + 1, DatePicker.SelectedDate);
+				var loggedInUser = UserService.Instance.LoggedInUser;
+				LogicHelper.Instance.InsertTaskController.InsertActivity(ProjectTypeCB.SelectedIndex + 1, TaskTypeCB.SelectedIndex + 1, DescriptionTextBox.Text, loggedInUser.username, StatusCB.SelectedIndex + 1, DatePicker.SelectedDate);
 			
 			}
 			else

@@ -7,6 +7,7 @@ using Prism.Commands;
 using System.Windows.Input;
 using System.Windows;
 using System.Windows.Controls;
+using TM.DailyTrackR.DataType.Enums;
 
 namespace TM.DailyTrackR.ViewModel
 {
@@ -79,7 +80,7 @@ namespace TM.DailyTrackR.ViewModel
 			if (result == MessageBoxResult.Yes)
 			{
 				Activities.Remove(selectedActivity);
-				LogicHelper.Instance.ExampleController.DeleteActivity(selectedActivity.Id); // Or call your delete method
+				LogicHelper.Instance.DailyTaskController.DeleteActivity(selectedActivity.Id); // Or call your delete method
 				//MessageBox.Show("Item deleted successfully.", "Delete", MessageBoxButton.OK, MessageBoxImage.Information);
 			}
 		}
@@ -87,11 +88,21 @@ namespace TM.DailyTrackR.ViewModel
 		private void NewWindowExecute()
 		{
 			ViewService.Instance.ShowWindow(new InsertTaskViewModel());
+
 		}
 
 		private void LoadDataForAllUser(DateTime date)
 		{
-			List<Activity> data = LogicHelper.Instance.ExampleController.GetDailyTasksForAll(date);
+			List<Activity> data = new List<Activity>();
+			var loggedInUser = UserService.Instance.LoggedInUser;
+			if (loggedInUser.role == (RoleEnum)1)
+			{
+				data = LogicHelper.Instance.OverviewTaskController.GetDailyTasksForAll(date);
+			}
+			else
+			{
+				 data = LogicHelper.Instance.DailyTaskController.GetDailyTasks(date, loggedInUser.username);
+			}
 			ActivitiesForAll.Clear();
 			foreach (var item in data)
 			{
@@ -101,7 +112,8 @@ namespace TM.DailyTrackR.ViewModel
 
 		private void LoadDataForUser(DateTime date)
 		{
-			List<Activity> data = LogicHelper.Instance.ExampleController.GetDailyTasks(date);
+			var loggedInUser = UserService.Instance.LoggedInUser;
+			List<Activity> data = LogicHelper.Instance.DailyTaskController.GetDailyTasks(date,loggedInUser.username);
 			Activities.Clear();
 			foreach (var item in data)
 			{

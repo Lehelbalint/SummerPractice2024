@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-2728048279
+3-895650537
 
-3-2096842779
+41586818526
 206-1066018456
-InsertTask.xaml;MainWindow.xaml;
+InsertTask.xaml;LoginWindow.xaml;MainWindow.xaml;
 
 False
 

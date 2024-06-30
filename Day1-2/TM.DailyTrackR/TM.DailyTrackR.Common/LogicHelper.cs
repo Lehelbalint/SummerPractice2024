@@ -11,6 +11,7 @@
       InsertTaskController = new InsertTaskController();
       LoginController = new LoginController();
       OverviewTaskController = new OverviewTaskController();
+      PlotController = new PlotController();
     }
 
     public static LogicHelper Instance { get { return Lazy.Value; } }
@@ -19,5 +20,6 @@
     public InsertTaskController InsertTaskController { get; }
     public LoginController LoginController { get; }
     public OverviewTaskController OverviewTaskController { get; }
+    public PlotController PlotController { get; }
   }
 }

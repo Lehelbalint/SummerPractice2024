@@ -16,6 +16,5 @@ namespace BookStore.Domain
 		public string Id { get; set; }
 		public string Username { get; set; }
 		public string Password { get; set; }
-		public List<string> RefreshTokens { get; set; } = new List<string>();
 	}
 }

@@ -1,0 +1,53 @@
+Team Activity in the period 10.06.2024 – 25.06.2024
+
+Administrative:
+
+- 'ewwwrerw' – InProgress
+- Administrative Activity 1 – InProgress
+- Administrative Activity 2
+- Administrative Activity 3 – InProgress
+
+Fixes:
+- abafaa – InProgress
+- abc – InProgress
+- Administrative Activity 4
+- Administrative Activity 5 – InProgress
+
+Development:
+
+- Development Activity 1 – InProgress
+- Development Activity 2
+- Development Activity 3 – InProgress
+
+Fixes:
+- Development Activity 4
+- Development Activity 5 – InProgress
+
+Marketing:
+
+- Marketing Activity 1 – InProgress
+- Marketing Activity 2
+- Marketing Activity 3 – InProgress
+
+Fixes:
+- Marketing Activity 4
+- Marketing Activity 5 – InProgress
+- weq – InProgress
+
+Meeting:
+
+- Daily Task
+- dasd
+- dasd
+- dasd
+- Meeting Activity 1 – InProgress
+- Meeting Activity 2
+- Meeting Activity 3 – InProgress
+
+Fixes:
+- ada
+- fdsffds
+- fwfwef
+- Meeting Activity 4
+- Meeting Activity 5 – InProgress
+

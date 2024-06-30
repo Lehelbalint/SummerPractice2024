@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TM.DailyTrackR.View"
         mc:Ignorable="d"
+        Icon="Resources/tracking-icon.png"
         Title="LoginWindow" Height="400" Width="350" WindowStartupLocation="CenterScreen" Background="#2C68CE" ResizeMode="NoResize">
 
     <Grid>

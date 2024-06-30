@@ -7,6 +7,7 @@ const BackIcon = () => (
 
 const styles = StyleSheet.create({
   icon: {
+    
     width: 40,
     height: 40,
     backgroundColor: "black",

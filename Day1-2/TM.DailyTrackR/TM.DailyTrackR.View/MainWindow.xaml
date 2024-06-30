@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TM.DailyTrackR.View"
         mc:Ignorable="d"
+        Icon="Resources/tracking-icon.png"
         WindowStartupLocation="CenterScreen"
         Title="TM Daily TrackR" Height="450" Width="800">
-    <Window.Template>
+    <!--<Window.Template>
         <ControlTemplate TargetType="{x:Type Window}">
             <Border Background="{TemplateBinding Background}">
                 <Grid>
@@ -24,7 +25,7 @@
                 </Grid>
             </Border>
         </ControlTemplate>
-    </Window.Template>
+    </Window.Template>-->
     <Window.InputBindings>
         <KeyBinding Command="{Binding DeleteFromKeyBoardCommand}" Key="Delete" Modifiers="Ctrl"/>
         <KeyBinding Command="{Binding NewWindowCommand}" Key="n" Modifiers="Control"/>
@@ -55,10 +56,8 @@
                                     <Setter Property="BorderBrush" Value="Black"/>
                                     <Setter Property="BorderThickness" Value="1"/>
                                     <Setter Property="Height" Value="30"/>
-                                    <Setter Property="Width" Value="Auto"/>
-                                    <!--<Setter Property="HorizontalAlignment" Value="Center"/>
-                                    <Setter Property="VerticalAlignment" Value="Center"/>-->
-                                </Style>
+                                        <Setter Property="Width" Value="Auto"/>
+                                    </Style>
                             </DataGrid.ColumnHeaderStyle>
                             <DataGrid.ContextMenu>
                                 <ContextMenu BorderBrush="SkyBlue" BorderThickness="1" >
@@ -67,7 +66,7 @@
                                 </ContextMenu>
                             </DataGrid.ContextMenu>
                             <DataGrid.Columns>
-                                <DataGridTextColumn Width="*"  Header="No." Binding="{Binding No}"/>
+                                <DataGridTextColumn Width="*"  IsReadOnly="True" Header="No." Binding="{Binding No}"/>
                                 <DataGridTextColumn Width="2*" Header="Project Type" Binding="{Binding ProjectTypeDescription}"/>
                                 <DataGridTextColumn Width="2*" Header="Task Type" Binding="{Binding ActivityType_Id}"/>
                                 <DataGridTextColumn Width="4*" Header="Description" Binding="{Binding ActivityDescription}"/>
@@ -83,17 +82,15 @@
                         <TextBlock FontSize="15" Text="{Binding ActivitiesDateText}" TextAlignment="Left"></TextBlock>
                     </DockPanel>
                     <Grid>
-                            <DataGrid x:Name="DataGridOverView"  RowHeight="30" BorderThickness="1" BorderBrush="Black" Margin="0,0,80,0" ItemsSource="{Binding ActivitiesForAll}" CanUserAddRows="False" AutoGenerateColumns="False">
+                            <DataGrid x:Name="DataGridOverView"   IsReadOnly="True" RowHeight="30" BorderThickness="1" BorderBrush="Black" Margin="0,0,80,0" ItemsSource="{Binding ActivitiesForAll}" CanUserAddRows="False" AutoGenerateColumns="False">
                             <DataGrid.ColumnHeaderStyle>
                                 <Style TargetType="DataGridColumnHeader">
                                     <Setter Property="Background" Value="#9BC2E6"/>
                                     <Setter Property="BorderBrush" Value="Black"/>
                                     <Setter Property="BorderThickness" Value="1"/>
                                     <Setter Property="Height" Value="30"/>
-                                    <Setter Property="Width" Value="Auto"/>
-                                    <!--<Setter Property="HorizontalAlignment" Value="Center"/>
-                                        <Setter Property="VerticalAlignment" Value="Center"/>-->
-                                </Style>
+                                        <Setter Property="Width" Value="Auto"/>
+                                    </Style>
                             </DataGrid.ColumnHeaderStyle>
                             <DataGrid.Columns>
                                 <DataGridTextColumn Width="*" Header="No." Binding="{Binding No}"/>
@@ -110,14 +107,18 @@
                             <Border BorderBrush="Black" BorderThickness="1" CornerRadius="5" Padding="5">
                                 <TextBlock Name="textBlock" TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
                             </Border>
-                            <Calendar Name="calendar" SelectionMode="MultipleRange" SelectedDatesChanged="Calendar_SelectedDatesChanged"/>
+                            <Calendar Name="calendar" SelectionMode="MultipleRange" Visibility="Collapsed" SelectedDatesChanged="Calendar_SelectedDatesChanged"/>
                         </StackPanel>
                         <Button Margin="0,10,0,10" Name="toggleButton" Content="📅" Click="ToggleButton_Click" Height="20" VerticalAlignment="Top" />
                         <TextBlock Margin="10">  period of time.</TextBlock>
                         <Button Width="30" Height="30" VerticalAlignment="Top" Click="ExportToFile" HorizontalAlignment="Left" Margin="0,10,0,0">
                             <Image  Source="Resources\SaveToFile.png" Width="30" Height="30" />
                         </Button>
-                    </DockPanel>
+                         <Button Width="30" Height="30" VerticalAlignment="Top" Click="ShowDiagramm" HorizontalAlignment="Left" Margin="10,10,0,0">
+                                <Image   Source="Resources\diagramm.png" Width="30" Height="30" />
+                         </Button>
+
+                        </DockPanel>
                 </StackPanel>
 
             </TabItem>

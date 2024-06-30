@@ -2,6 +2,8 @@
 using BookStore.Data.Abstractions;
 using BookStore.Data.MongoDB;
 using BookStore.Domain;
+using BookStore.Domain.Token;
+using BookStore.Repositories;
 using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -34,9 +36,11 @@ internal class Program
 		builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assemblies));
 		builder.Services.Scan(scan => scan.FromAssemblies(Assemblies)
 			.AddClasses(type => type.AssignableTo(typeof(IRepository<>))).AsImplementedInterfaces().WithScopedLifetime()
-			.AddClasses(type => type.AssignableTo(typeof(IDatabase))).AsImplementedInterfaces().WithSingletonLifetime());
+			.AddClasses(type => type.AssignableTo(typeof(IDatabase))).AsImplementedInterfaces().WithSingletonLifetime()
+			.AddClasses(type => type.AssignableTo(typeof(IUserRepository))).AsImplementedInterfaces().WithSingletonLifetime());
 
 		builder.Services.AddSingleton<AuthenticationService>();
+		builder.Services.AddSingleton<RefreshTokenService>();
 
 		// Add authentication
 		var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:Key"]);

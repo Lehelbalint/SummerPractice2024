@@ -36,7 +36,7 @@ namespace TM.DailyTrackR.View
 			}
 			else
 			{
-				DataType.User loggedUser = LogicHelper.Instance.LoginController.Login(usermame, password);
+				User loggedUser = LogicHelper.Instance.LoginController.Login(usermame, password);
 				if (loggedUser != null)
 				{
 					UserService.Instance.SetLoggedInUser(loggedUser);

@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         HorizontalAlignment="Center"
         VerticalAlignment="Center"
+        Icon="Resources/tracking-icon.png"
         Title="New Activity" Height="300" Width="640">
     <Window.Resources>
         <Style TargetType="TextBlock">
@@ -20,6 +21,7 @@
             <Setter Property="Height" Value="25"/>
         </Style>
     </Window.Resources>
+
     <Grid>
         <Grid Background="LightGray" Height="230" Width="Auto" VerticalAlignment="Top" Margin="3">
             <Grid.ColumnDefinitions>

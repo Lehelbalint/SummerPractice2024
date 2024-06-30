@@ -1,0 +1,32 @@
+ProjectTypeDescription,ActivityType,ActivityDescription,Status
+Administrative,New,Administrative Activity 1,New
+Administrative,New,Administrative Activity 3,New
+Administrative,New,'ewwwrerw',New
+Administrative,New,Administrative Activity 2,New
+Administrative,Fix,Administrative Activity 5,Fix
+Administrative,Fix,abafaa,Fix
+Administrative,Fix,abc,Fix
+Administrative,Fix,Administrative Activity 4,Fix
+Development,New,Development Activity 1,New
+Development,New,Development Activity 3,New
+Development,New,Development Activity 2,New
+Development,Fix,Development Activity 5,Fix
+Development,Fix,Development Activity 4,Fix
+Marketing,New,Marketing Activity 1,New
+Marketing,New,Marketing Activity 3,New
+Marketing,New,Marketing Activity 2,New
+Marketing,Fix,Marketing Activity 5,Fix
+Marketing,Fix,weq,Fix
+Marketing,Fix,Marketing Activity 4,Fix
+Meeting,New,Meeting Activity 1,New
+Meeting,New,Meeting Activity 3,New
+Meeting,New,Meeting Activity 2,New
+Meeting,New,dasd,New
+Meeting,New,dasd,New
+Meeting,New,dasd,New
+Meeting,New,Daily Task,New
+Meeting,Fix,Meeting Activity 5,Fix
+Meeting,Fix,Meeting Activity 4,Fix
+Meeting,Fix,fdsffds,Fix
+Meeting,Fix,fwfwef,Fix
+Meeting,Fix,ada,Fix

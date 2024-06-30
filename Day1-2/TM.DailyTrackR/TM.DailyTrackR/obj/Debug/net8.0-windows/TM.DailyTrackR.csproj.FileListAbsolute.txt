@@ -73,3 +73,6 @@ D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.Da
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR\obj\Debug\net8.0-windows\TM.DailyTrackR.pdb
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR\obj\Debug\net8.0-windows\TM.DailyTrackR.genruntimeconfig.cache
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR\obj\Debug\net8.0-windows\ref\TM.DailyTrackR.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR\bin\Debug\net8.0-windows\OxyPlot.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR\bin\Debug\net8.0-windows\OxyPlot.Wpf.dll
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR\bin\Debug\net8.0-windows\OxyPlot.Wpf.Shared.dll

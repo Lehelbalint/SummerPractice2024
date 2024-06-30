@@ -58,3 +58,5 @@ D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.Da
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR.View\obj\Debug\net8.0-windows\InsertTask.baml
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR.View\obj\Debug\net8.0-windows\LoginWindow.g.cs
 D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR.View\obj\Debug\net8.0-windows\LoginWindow.baml
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR.View\obj\Debug\net8.0-windows\PlotData.g.cs
+D:\SummerPractice2024-BalintLehel\SummerPractice2024\Day1-2\TM.DailyTrackR\TM.DailyTrackR.View\obj\Debug\net8.0-windows\PlotData.baml

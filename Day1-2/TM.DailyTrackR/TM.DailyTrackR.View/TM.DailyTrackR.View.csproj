@@ -9,10 +9,13 @@
 
   <ItemGroup>
     <None Remove="Resources\addTask.png" />
+    <None Remove="Resources\diagramm.png" />
     <None Remove="Resources\SaveToFile.png" />
+    <None Remove="Resources\tracking-icon.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="OxyPlot.Wpf" Version="2.1.2" />
     <PackageReference Include="Prism.Wpf" Version="8.1.97" />
   </ItemGroup>
   
@@ -24,6 +27,8 @@
   
   <ItemGroup>
     <Resource Include="Resources\addTask.png" />
+    <Resource Include="Resources\diagramm.png" />
+    <Resource Include="Resources\tracking-icon.png" />
     <Resource Include="Resources\SaveToFile.png" />
   </ItemGroup>
 

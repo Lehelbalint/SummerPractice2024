@@ -1,84 +1,65 @@
-﻿using BookStore.Domain;
+﻿using BookStore.Application;
+using BookStore.Data.Abstractions;
+using BookStore.Domain;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 
 namespace BookStore.Controllers
 {
 
-	[ApiController]
+    [ApiController]
 	[Route("api/[controller]")]
 	public class AuthController : ControllerBase
 	{
-		private readonly IMongoCollection<User> _users;
-		private readonly AuthenticationService _authService;
+		private readonly AuthenticationService _tokenService;
+		private readonly RefreshTokenService _refreshTokenService;
+		private readonly IUserRepository _userRepository;
 
-		public AuthController(IConfiguration config, AuthenticationService authService)
+		public AuthController(AuthenticationService tokenService, RefreshTokenService refreshTokenService, IUserRepository userRepository)
 		{
-			var client = new MongoClient("mongodb+srv://blehel:egkxj7c4@cluster0.37noliy.mongodb.net/");
-			var database = client.GetDatabase("BookStore");
-			_users = database.GetCollection<User>("Users");
-			_authService = authService;
-		}
-
-		[HttpPost("register")]
-		public async Task<IActionResult> Register([FromBody] User user)
-		{
-			var existingUser = await _users.Find(u => u.Username == user.Username).FirstOrDefaultAsync();
-			if (existingUser != null)
-			{
-				return BadRequest("User already exists.");
-			}
-
-			user.Password = PasswordHasher.HashPassword(user.Password);
-			await _users.InsertOneAsync(user);
-
-			return Ok("User registered successfully.");
+			_tokenService = tokenService;
+			_refreshTokenService = refreshTokenService;
+			_userRepository = userRepository;
 		}
 
 		[HttpPost("login")]
-		public async Task<IActionResult> Login([FromBody] User user)
+		public IActionResult Login([FromBody] LoginRequest request)
 		{
-			var existingUser = await _users.Find(u => u.Username == user.Username).FirstOrDefaultAsync();
-			if (existingUser == null || !PasswordHasher.VerifyPassword(user.Password, existingUser.Password))
+			var userId = ValidateUserCredentials(request.Username, request.Password);
+			if (userId == null)
 			{
-				return Unauthorized("Invalid credentials.");
+				return Unauthorized();
 			}
 
-			var accessToken = _authService.GenerateAccessToken(user.Username);
-			var refreshToken = _authService.GenerateRefreshToken();
-
-			existingUser.RefreshTokens.Add(refreshToken);
-			await _users.ReplaceOneAsync(u => u.Id == existingUser.Id, existingUser);
+			var accessToken = _tokenService.GenerateAccessToken(userId);
+			var refreshToken = _refreshTokenService.GenerateRefreshToken(userId);
 
 			return Ok(new
 			{
 				AccessToken = accessToken,
-				RefreshToken = refreshToken
+				RefreshToken = refreshToken.Token
 			});
 		}
 
-		[HttpPost("refresh")]
-		public async Task<IActionResult> Refresh([FromBody] string refreshToken)
+		[HttpPost("refresh-token")]
+		public IActionResult RefreshToken([FromBody] RefreshTokenRequest request)
 		{
-			var user = await _users.Find(u => u.RefreshTokens.Contains(refreshToken)).FirstOrDefaultAsync();
-			if (user == null)
+			if (!_refreshTokenService.ValidateRefreshToken(request.RefreshToken, request.UserId))
 			{
-				return Unauthorized("Invalid refresh token.");
+				return Unauthorized();
 			}
 
-			user.RefreshTokens.Remove(refreshToken);
-
-			var newAccessToken = _authService.GenerateAccessToken(user.Username);
-			var newRefreshToken = _authService.GenerateRefreshToken();
-
-			user.RefreshTokens.Add(newRefreshToken);
-			await _users.ReplaceOneAsync(u => u.Id == user.Id, user);
-
+			var newAccessToken = _tokenService.GenerateAccessToken(request.UserId);
 			return Ok(new
 			{
-				AccessToken = newAccessToken,
-				RefreshToken = newRefreshToken
+				AccessToken = newAccessToken
 			});
 		}
+
+		private string ValidateUserCredentials(string username, string password)
+		{
+			var user = _userRepository.GetUserByUsernameAndPassword(username, password);
+			return user?.Id;
+		}
 	}
-}
+	}

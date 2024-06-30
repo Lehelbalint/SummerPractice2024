@@ -27,7 +27,7 @@ const ProductScreen = () => {
 
   const renderItem = ({ item }: { item: Product }) => {
     return (
-      <TouchableOpacity style={styles.container}>
+      <TouchableOpacity style={styles.container} onPress={() => navigation.navigate("ProductDetailsScreen",{id: item.id})}>
         <Image style={styles.image} source={{ uri: item.images[0] }} />
         <Text style={styles.textTitle}>{item.title}</Text>
         <Text style={styles.textDescription}>{item.brand}</Text>
@@ -39,7 +39,7 @@ const ProductScreen = () => {
   return (
     <SafeAreaView style={styles.safeArea}>
       <TouchableOpacity
-        onPress={() => navigation.navigate("HomeScreen")}
+      
         style={{ width: 45 }}
       >
         <BackIcon />

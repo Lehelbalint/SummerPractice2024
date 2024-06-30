@@ -6,10 +6,12 @@ using BookStore.Application.InsertBook;
 using BookStore.Application.UpdateBook;
 using BookStore.Domain;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookStore.Controllers
 {
+	[Authorize]
 	[ApiController]
 	[Route("[controller]")]
 	public class BooksController : ControllerBase

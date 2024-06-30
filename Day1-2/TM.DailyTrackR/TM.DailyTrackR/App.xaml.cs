@@ -19,6 +19,7 @@
             ViewService.Instance.RegisterView(typeof(LoginViewModel), typeof(LoginWindow));
             ViewService.Instance.RegisterView(typeof(MainWindowViewModel), typeof(MainWindow));
             ViewService.Instance.RegisterView(typeof(InsertTaskViewModel), typeof(InsertTask));
+            ViewService.Instance.RegisterView(typeof(PlotDataViewModel), typeof(PlotData));
             ViewService.Instance.ShowDialog(new LoginViewModel());
         }
     }

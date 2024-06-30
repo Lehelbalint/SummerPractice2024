@@ -1,5 +1,6 @@
 ﻿namespace TM.DailyTrackR.View
 {
+	using System.Globalization;
 	using System.IO;
 	using System.Text;
 	using System.Windows;
@@ -16,7 +17,30 @@
 		{
 			InitializeComponent();
 			DataContext = new MainWindowViewModel();
+			CloseLoginWindow();
 			
+
+		}
+		private void CloseLoginWindow()
+		{
+			foreach (Window window in Application.Current.Windows)
+			{
+				if (window.Title == "LoginWindow")
+				{
+					window.Close();
+				}
+			}
+		}
+		private void ShowDiagramm(object sender, RoutedEventArgs e)
+		{
+			if (textBlock.Text != "")
+			{
+				ViewService.Instance.ShowWindow(new PlotDataViewModel(startDate: calendar.SelectedDates.Min(), endDate: calendar.SelectedDates.Max()));
+			}
+			else
+			{
+				MessageBox.Show("Select the period","Error");
+			}
 		}
 		private void ExportToFile(object sender, RoutedEventArgs e)
 		{
@@ -26,22 +50,26 @@
 				var startDate = calendar.SelectedDates.Min();
 				var endDate = calendar.SelectedDates.Max();
 				var activitiesRange = LogicHelper.Instance.OverviewTaskController.GetActivitiesByDate(startDate, endDate);
-				var filename = $"TeamWeekActivity_{startDate.ToString("dd.MM.yyyy")}_{endDate.ToString("dd.MM.yyyy")}.txt";
-				string filePath = $"D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\{filename}"; // Add meg a fájl elérési útját
-				ExportActivitiesToTxt(activitiesRange, filePath, startDate, endDate);
-				MessageBox.Show("Data Exported");
+				var filename = $"TeamWeekActivity_{startDate.ToString("dd.MM.yyyy")}_{endDate.ToString("dd.MM.yyyy")}";
+				string filePath = $"D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\{filename}.txt"; // Add meg a fájl elérési útját
+				string csvFilePath = $"D:\\SummerPractice2024-BalintLehel\\SummerPractice2024\\Day1-2\\TM.DailyTrackR\\{filename}.csv";
+				ExportActivitiesToTxt(activitiesRange, filePath, startDate, endDate, csvFilePath);
+			
+				MessageBox.Show("Data Exported","Succes");
 
 
 			}
 			else {
-				MessageBox.Show("Select the period");
+				MessageBox.Show("Select the period","Error");
 			}
 		}
-		public void ExportActivitiesToTxt(List<Activity> activities, string filePath, DateTime startDate, DateTime endDate)
+		public void ExportActivitiesToTxt(List<Activity> activities, string filePath, DateTime startDate, DateTime endDate,string csvFilePath)
 		{
 			var groupedActivities = activities
 				.GroupBy(a => a.ProjectTypeDescription)
 				.OrderBy(g => g.Key);
+
+			ExportToCsv(activities, csvFilePath);
 
 			using (StreamWriter writer = new StreamWriter(filePath))
 			{
@@ -90,6 +118,22 @@
 					}
 				}
 			}
+		}
+
+		private void ExportToCsv(IEnumerable<Activity> activities, string filePath)
+		{
+			var csv = new StringBuilder();
+			csv.AppendLine("ProjectTypeDescription,ActivityType,ActivityDescription,Status");
+
+			foreach (var activity in activities)
+			{
+
+				var newLine = $"{activity.ProjectTypeDescription},{(activity.ActivityType_Id)}," +
+					$"{activity.ActivityDescription},{(activity.Status_Id)}";
+				csv.AppendLine(newLine);
+			}
+
+			File.WriteAllText(filePath, csv.ToString());
 		}
 		private void Calendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
 		{

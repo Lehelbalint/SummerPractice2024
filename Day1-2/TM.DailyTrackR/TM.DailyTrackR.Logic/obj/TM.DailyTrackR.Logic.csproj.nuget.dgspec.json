@@ -50,6 +50,10 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "OxyPlot.Wpf": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
             "Prism.Wpf": {
               "target": "Package",
               "version": "[8.1.97, )"
@@ -128,6 +132,10 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "OxyPlot.Wpf": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
             "Prism.Wpf": {
               "target": "Package",
               "version": "[8.1.97, )"
